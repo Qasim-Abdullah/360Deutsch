@@ -1,0 +1,1563 @@
+[
+  {
+    "lemma": "Zimmer",
+    "part_of_speech": "noun",
+    "gender": "das",
+    "pronunciation": {
+      "ipa": [
+        "ˈt͡sɪmɐ",
+        "ˈt͡sɪmɐs"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Zimmer"
+      ],
+      "cases": {
+        "nominative": "das Zimmer",
+        "accusative": "das Zimmer"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Einrichtung, Mobiliar eines Zimmers[1]",
+        "Raum in einem Haus oder einer Wohnung, der für den Aufenthalt von Personen bestimmt ist"
+      ],
+      "en": [
+        "a room in a house or apartment intended for occupancy",
+        "the furnishings of a room"
+      ]
+    },
+    "examples": [
+      "Alf Bertini war aus dem Zimmer gerannt.",
+      "Als ich dieses Zimmer sah, wusste ich, was Gelsenkirchener Barock ist.",
+      "Als wir im Brandenburger Umweltministerium Ende 1990 die Arbeit aufnahmen, hatten wir nicht mehr als ein Zimmer, ein Türschild, einen Staatssekretär und sechs Mitarbeiter, die sich ein einziges Telefon teilten.",
+      "Diese Wohnung hat drei Zimmer.",
+      "Dieses Zimmer schien aus dem 19. Jahrhundert zu sein.",
+      "In der Abteilung »Neuzeit« ist von der Ansbacher Polizei ein Zimmer dem Andenken des armen Findlings Kaspar Hauser geweiht; man sieht seine Uhr, seine Kleider und Wäsche mit den Stichmarken des Mordinstrumentes und die ganze Literatur über diesen geheimnisvollen Unbekannten.",
+      "Nun war es offenbar gerade dieses Zimmer , das die Einbrecherin sich ausgesucht hatte.",
+      "Sei ruhig und geh auf dein Zimmer!",
+      "Wir haben uns verkauft: Das Zimmer fällt dunkler aus, als wir dachten."
+    ],
+    "english": "room"
+  },
+
+  
+  {
+    "lemma": "Schreibtisch",
+    "part_of_speech": "noun",
+    "gender": "der",
+    "pronunciation": {
+      "ipa": [
+        "ˈʃʁaɪ̯pˌtɪʃ"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Schreibtische"
+      ],
+      "cases": {}
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Tisch zum Schreiben, meist mit Schubfächern/Schubladen zur Aufbewahrung von Schreibmaterialien und Akten"
+      ],
+      "en": [
+        "desk for writing, usually with drawers for storing writing materials and documents"
+      ]
+    },
+    "examples": [
+      "An seinem Schreibtisch hingen ein Poster von Homer Simpson, ein Kalender der NASA, ein Poster mit dem Namen »Pale Blue Dot« und eine Kopie seiner Promotionsurkunde, die lediglich mit einer Heftzwecke an der Wand fixiert war.",
+      "Die Fliege krabbelte immer noch auf dem Schreibtisch herum.",
+      "Er saß hinter dem Schreibtisch .",
+      "Meine Werkbank ist der Schreibtisch.",
+      "Sie saßen sich an seinem Schreibtisch gegenüber.",
+      "Weil ich den ganzen Tag am Schreibtisch sitze, habe ich einen Haltungsschaden."
+    ],
+    "english": "desk"
+  },
+  {
+    "lemma": "Stuhl",
+    "part_of_speech": "noun",
+    "gender": "der",
+    "pronunciation": {
+      "ipa": [
+        "ʃtuːl"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Stühle"
+      ],
+      "cases": {}
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "(Sitz-)Möbel, meist mit vier hohen Beinen, Rückenlehne und eventuell Armlehnen",
+        "Medizin, gehoben: Kot (feste Exkremente)",
+        "nur in Zusammensetzungen: Gerüst oder Gestell, meist ortsfest (im Gegensatz zu Möbeln), meist aus Holz",
+        "übertragen, bildungssprachlich: Begriff für ein Amt"
+      ],
+      "en": [
+        "chair",
+        "figurative, formal: term for an office or position",
+        "medicine, formal: feces",
+        "only in compounds: fixed framework or structure, usually wooden"
+      ]
+    },
+    "examples": [
+      "Auf diesem Stuhl kann man bequem sitzen.",
+      "Aufgrund der Nummernangabe wußte sie, wie viele Stühle sie noch hinstellen und wieviel Kaffeewasser sie aufsetzen mußte.",
+      "Der Stuhl Petri ist zur Zeit unbesetzt.",
+      "Er hat seinen Stuhl an die Wand zurückgeschoben, liest die Zeitung und raucht eine dicke Arbeiterzigarette, an der er nur selten zieht.",
+      "Er klagt über einen schweren Stuhl.",
+      "Im Werkkreis bei Hirte saß man auf Stühlen um einen runden Tisch.",
+      "Irgendjemand schob mir einen Stuhl unter den Arsch."
+    ],
+    "english": "chair"
+  },
+  {
+    "lemma": "Computer",
+    "part_of_speech": "noun",
+    "gender": "der",
+    "pronunciation": {
+      "ipa": [
+        "kɔmˈpjuːtɐ"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Computer"
+      ],
+      "cases": {
+        "nominative": "die Computer",
+        "accusative": "die Computer"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Elektronik, Informationstechnologie: elektronisches, programmierbares Gerät zur Eingabe, Verarbeitung und Ausgabe von Daten"
+      ],
+      "en": [
+        "electronics, information technology: electronic programmable device for input, processing and output of data"
+      ]
+    },
+    "examples": [
+      "Computer gibt es in allen Größen: Vom Supercomputer, größer als ein Haus, der das Klima vorhersagt, bis zum Fahrradcomputer, der in die Hosentasche passt.",
+      "Das liegt nicht etwa daran, dass die Wissenschaftler nicht schlau genug sind, die Modelle zu ungenau oder die Computer zu langsam, sondern an der Chaostheorie.",
+      "Dieser Computer ist nicht leistungsfähig genug für neue Computerspiele.",
+      "Eine häufige Anwendung des Computers ist das Surfen im Internet.",
+      "Es tat gut, den kleinen Computer in der Hand zu halten.",
+      "Ich frage Leute auf der Straße, in der U-Bahn, im Büro, alle woll'n Computer haben, keiner weiß genau wieso.",
+      "Mit dem Computer lassen sich Berechnungen in Sekunden durchführen, für die Adam Riese Jahrzehnte gebraucht hätte.",
+      "Wenn ich es richtig sehe, ist die interaktive Kommunikation mittels Computer im Begriff, sich zu der neuen Form der Tradierung von Erzählinhalten zu entwickeln.",
+      "Wer am Computer sitzt vergisst schnell die Zeit."
+    ],
+    "english": "computer"
+  },
+  {
+    "lemma": "Bildschirm",
+    "part_of_speech": "noun",
+    "gender": "der",
+    "pronunciation": {
+      "ipa": [
+        "ˈbɪltˌʃɪʁm"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Bildschirme"
+      ],
+      "cases": {}
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Technik: Ausgabegerät für Bilder und Zeichen",
+        "Teil des Fernsehapparates oder Computers, auf dem das Bild erscheint"
+      ],
+      "en": [
+        "part of a television or computer on which the image appears",
+        "technology: output device for images and characters"
+      ]
+    },
+    "examples": [
+      "Als die Kameraleute das Flugzeug verlassen hatten, schaute ich zu der Landkarte auf dem Bildschirm, auf der nun Asien im Mittelpunkt stand.",
+      "Auf dem Bildschirm des Echolots kann man genau das gesunkene Schiff sehen.",
+      "Auf dem Bildschirm erschien eine junge Dame, die mir sagte, sie würde mit mir reden und dafür sorgen, daß ich mich gut fühle.",
+      "Dann hatte er es wieder auf den Bildschirm geholt, wieder und wieder.",
+      "Der Wachmann starrt den ganzen Tag auf den Bildschirm, der mit den Überwachungskameras verbunden ist.",
+      "Diese Hanswurste, die mit ihren MPs über den Bildschirm zappelten, waren für Tschetschenen doch etwas zu dunkel.",
+      "Es knallte und der Bildschirm erlosch.",
+      "Ich hatte gestern sogar auf dem Bildschirm des Laptops den Cursor geschlagen, weil ich dachte, es sei eine Mücke.",
+      "Unser neuestes Kommunikationsbaby heißt Skype, und wir können meine Eltern auf dem Bildschirm sehen."
+    ],
+    "english": "screen"
+  },
+  {
+    "lemma": "Tastatur",
+    "part_of_speech": "noun",
+    "gender": "die",
+    "pronunciation": {
+      "ipa": [
+        "tastaˈtuːɐ̯"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Tastaturen"
+      ],
+      "cases": {
+        "nominative": "die Tastatur",
+        "accusative": "die Tastatur"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Eingabegerät, das als Bedienelemente eine Anzahl von mit den Fingern drückbaren Tasten enthält.",
+        "andere Bezeichnung für Klaviatur"
+      ],
+      "en": [
+        "another term for keyboard",
+        "input device containing multiple finger-pressable keys; keyboard"
+      ]
+    },
+    "examples": [
+      "Dieser Text wurde mit einer Tastatur geschrieben.",
+      "Dieses Aufschreiben kann ein handschriftliches Aufzeichnen sein, ein Schreiben mit einer Schreibmaschine, oder es handelt sich um das Eintippen eines Textes auf der Tastatur eines Computers, auf dessen Bildschirm das Geschriebene erscheint, was man nach Wunsch speichern kann.",
+      "In der Außenhaut des Gehäuses war die Tastatur integriert.",
+      "Mit dem Klackern der Tastatur im Ohr schlafe ich ein.",
+      "Möglicherweise beeinflusste das Fehlen des Ausrufezeichens auf der Tastatur der Remington allgemeine Einstellungen zur Sprache, sodass ihr funktionaler Zweck Grammatikregeln wie die der Fowler-Brüder unterstützte."
+    ],
+    "english": "keyboard"
+  },
+  {
+    "lemma": "Maus",
+    "part_of_speech": "noun",
+    "gender": "die",
+    "pronunciation": {
+      "ipa": [
+        "maʊ̯s"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Mäuse"
+      ],
+      "cases": {
+        "nominative": "die Maus",
+        "accusative": "die Maus"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Computer, kurz für Computermaus: Gerät mit Funktion zur Eingabe von Signalen zur Bedienung von Computern",
+        "Zoologie: kleines graues oder braunes Säugetier mit überwiegend langem Schwanz, rattenähnlich, in der Zuchtform auch weiß oder schwarz",
+        "jugendsprachlich, umgangssprachlich: Kosewort für Babys, Mädchen und Frauen",
+        "umgangssprachlich, nur Plural: Geld",
+        "umgangssprachlich: Handballen unter Daumen",
+        "veraltet: Muskel"
+      ],
+      "en": [
+        "colloquial, plural only: money",
+        "colloquial: palm of the hand below the thumb",
+        "computer, short for computer mouse: device used to input signals to operate computers",
+        "obsolete: muscle",
+        "youth slang, colloquial: term of endearment for babies, girls, and women",
+        "zoology: small gray or brown mammal with a mostly long tail, rat-like; bred forms also white or black"
+      ]
+    },
+    "examples": [
+      "Der Elefant hat Angst vor der kleinen weißen Maus.",
+      "Der Pfeil drang in die Maus ein und zerstörte den Daumen.",
+      "Hat deine Maus von letzter Nacht nochmal angerufen?",
+      "Ratten und Mäuse bilden mit über 400 Arten die große Familie der Langschwanzmäuse oder Muridae.",
+      "Seine ältere Schwester ist eine graue Maus, die sollte mal was aus sich machen!"
+    ],
+    "english": "mouse"
+  },
+  {
+    "lemma": "Lampe",
+    "part_of_speech": "noun",
+    "gender": "die",
+    "pronunciation": {
+      "ipa": [
+        "ˈlampə"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Lampen"
+      ],
+      "cases": {
+        "nominative": "die Lampe",
+        "accusative": "die Lampe"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Beleuchtung: Licht- oder Leuchtmittel, bei dem Licht durch Energieumwandlung erzeugt wird",
+        "poetisch: Meister Lampe – der Hase in einer Fabel",
+        "umgangssprachlich: Gerät, das durch [1] Licht verbreitet"
+      ],
+      "en": [
+        "colloquial: device that emits light",
+        "lighting: light source producing light via energy conversion",
+        "poetic: Master Hare in a fable"
+      ]
+    },
+    "examples": [
+      "Dann zündete sie die hohen silbernen Lampen in ihrer Stube an, breitete die seidenen Steppdecken aus, setzte Räucherwerk in Brand, wusch ihren Schoß und legte sich für die Nacht zu Simen Tjing.",
+      "Die Lampe brannte nur noch schwach, aber es verlohnte sich kaum, den Docht höher zu schrauben; um ein Weilchen würden sie sich niederlegen, nachdem sie das Licht gelöscht, und schlafen, und am Morgen sollte die Reise beginnen.",
+      "Er stellte den Aschenbecher wieder auf den Seitentisch und schaltete die Lampen aus.",
+      "Im einfachen Stromkreis sorgt die Lampe dafür, dass der Stromkreis geschlossen ist.",
+      "Mach mal bitte die Lampe an, es ist so dunkel hier.",
+      "Robert beugte sich über das Blatt, das auf dem Schreibpult des Gehilfen im Licht einer hellen Lampe lag.",
+      "Und Meister Lampe knabberte an einer Möhre."
+    ],
+    "english": "lamp"
+  },
+  {
+    "lemma": "Regal",
+    "part_of_speech": "noun",
+    "gender": "das",
+    "pronunciation": {
+      "ipa": [
+        "ʁeˈɡaːl"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Regale"
+      ],
+      "cases": {
+        "nominative": "das Regal",
+        "accusative": "das Regal"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Plural 2: ein dem Staat oder Staatsoberhaupt zustehendes Hoheitsrecht",
+        "ein Zungenpfeifenregister bei Orgeln",
+        "ein offenes Gestell, an dem mehrere Bretter befestigt sind, die als Ablage dienen",
+        "eine tragbare Kleinorgel mit Zungenpfeifen"
+      ],
+      "en": [
+        "a portable small organ with reed pipes",
+        "a reed stop in an organ",
+        "an open rack with several shelves used for storage",
+        "plural 2: a sovereign right belonging to the state or head of state"
+      ]
+    },
+    "examples": [
+      "Er drückte sich an uns vorbei, ging an den Regalen vorbei und nahm sich ein Buch heraus.",
+      "Helena achtete darauf, die Wände mit Bücherregalen zu schmücken, so wie es sich für ein kultiviertes Haus gehört, und in diesen Regalen standen neben einer Enzyklopädie, einem Nachschlagewerk zu berühmten Menschen und berühmten Orten, auch Fotoalben.",
+      "In meterhohen Regalen lagerte alles, was die Einwohner der Vier-Millionen-Stadt offensichtlich entbehren konnten: wandhohe Ölschinken, Schaufenster- und Schneiderpuppen, Graphoskope, ausgestopfte Tauben, viktorianische Säulen, orientalische Leuchter, ziegelrote Büsten mit dem Portrait des Kaisers, grell geschminkte Damenbüsten mit Porzellanzähnen und Glasaugen.",
+      "Meine Regale reichen für die Bücher schon lange nicht mehr aus.",
+      "Mr. Sipple keuchte laut, als er die Doppelflinte vom Regal im Wohnzimmer herunterholte.",
+      "Oskar erspäht eine neue Blechtrommel, die auf dem obersten Brett eines Regales liegt, möchte sie herunterziehen.",
+      "Was auf dem oberen Brett stand, alte Hutschachteln, halbzerbrochenes Porcellan und dergleichen, es stürzte alles unter den flüchtenden Füßen der Katze auf die Dielen herab; das polterte und klirrte; erstickende Staubwolken wirbelten auf, und unter Veit’s kreischendem Hu, hu! flog die arme Gehetzte auf der andern Seite des Regales hinab und zur Thür hinaus."
+    ],
+    "english": "shelf"
+  },
+  {
+    "lemma": "Uhr",
+    "part_of_speech": "noun",
+    "gender": "die",
+    "pronunciation": {
+      "ipa": [
+        "uːɐ̯"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Uhren"
+      ],
+      "cases": {
+        "nominative": "die Uhr",
+        "accusative": "die Uhr"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Instrument zur Messung der Zeit, Chronometer",
+        "Zusatz zur (offiziellen) Zeitangabe, zur Frage nach dem Zeitpunkt; siehe auch: Übersicht der Uhrzeiten im Deutschen",
+        "fast ausschließlich in zusammengesetzten Substantiven: Gerät zur Messung der Durchflussmenge, Durchströmmenge oder zur Anzeige des Flüssigkeitsstands"
+      ],
+      "en": [
+        "flow meter, level gauge",
+        "time specification, time qualifier",
+        "timepiece, chronometer"
+      ]
+    },
+    "examples": [
+      "Ach du Schreck, meine Uhr ist stehen geblieben.",
+      "Die Uhr ist stehengeblieben.",
+      "Eine Uhr zeigt an, wie lange man noch parken darf. Fünf Minuten vor Ablauf der Zeit wird der Nutzer benachrichtigt. Dann kann man (vom Büro aus oder von unterwegs) die Parkzeit bis zur Höchstdauer erweitern.",
+      "Eine kleine Uhr zeigt anderen Nutzern, wie lange der Platz schon frei ist. Sie müssen dann selbst abschätzen, ob es sich noch lohnt, ihn anzusteuern.",
+      "Er sah nach der Uhr .",
+      "Es ist dreizehn Uhr dreiunddreißig Minuten.",
+      "Es ist kurz vor vier Uhr .",
+      "Es war bereits zwei Uhr nachmittags.",
+      "In einem der Flure gab es eine alte Pendeluhr, ich glaube im ersten Stock; die Uhr stand immer; eine echte Standuhr also.",
+      "In einem plötzlichen Wutanfall schleuderte er die Uhr weit hinaus in das Wasser.",
+      "Neue Motoren haben einen Blowby von ca. 15 Litern/Minute. Motoren um die 300000 km stehen so bei 30 litern/Minute gemessen im Leerlauf und gegen Atmosphäre (kein Ansaugunterdruck an der Uhr ).",
+      "Um 10 Uhr stehe ich auf.",
+      "Uns dämmerte, dass wohl nicht das bereits abgeklemmte Radio oder die ebenfalls zur Vorsage abgeklemmte Uhr der Stromverbraucher an dem Van war, sondern das Standlicht, dass sich wahrscheinlich beim Tür zuschlagen irgendwie von selbst einschalten muss.",
+      "Wie viel Uhr ist es?",
+      "Wo habe ich denn meine Uhr hingelegt?",
+      "[1, 2, 4] Gesundheit, Gewicht und Genuss: Wer sich richtig ernähren will, bringt die Uhr ins Spiel."
+    ],
+    "english": "clock"
+  },
+  {
+    "lemma": "Kalender",
+    "part_of_speech": "noun",
+    "gender": "der",
+    "pronunciation": {
+      "ipa": [
+        "kaˈlɛndɐ"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Kalender"
+      ],
+      "cases": {
+        "nominative": "die Kalender",
+        "accusative": "die Kalender"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Erscheinungsart der Derwische",
+        "meist in der Schreibweise Calender: Vertreter der Calenderherren (Kaland)",
+        "so genannter Blättermagen, die dritte Abteilung des Magens der Wiederkäuer"
+      ],
+      "en": [
+        "the appearance or manifestation of dervishes",
+        "the so-called omasum, the third stomach compartment of ruminants",
+        "usually spelled Calender: a representative of the Calender dervishes"
+      ]
+    },
+    "examples": [
+      "'Der Kontrahend Danischmends ist ein » Kalender «. Der heute kaum verstandene Begriff meint eine Spezies von sufischem Derwisch, den Wieland als eine Mischung von wanderndem Bettelmönch und Kyniker vorstellt.",
+      "Auch die Ägypter besaßen bereits einen Kalender .",
+      "Der Kalender zeigt die zwölf Monate des Jahres.",
+      "Diese Calender -Brüderschafft hat sich an unterschiedenen Orten in Orten in Sachsen, Thüringen, Meissen, Pommern, Westphalen, ja gar in Franckreich und Ungern befunden.",
+      "Eine Kuh hat vier Mägen: Pansen, Netzmagen, Blättermagen, den man auch Kalender nennt, und Labmagen. Durch die vielen Falten im Kalender wird der Nahrungsbrei zerrieben und eingedickt.",
+      "Ich muss den Termin in meinen Kalender eintragen, sonst vergesse ich ihn.",
+      "Ich wartete also einige Zeit, verlor aber schließlich die Lust, mir sämtliche Kalender der Lebenversicherungsunternehmen anzuschauen.",
+      "In der Küche schaute ich auf eine kleine Tafel, die Didier aufgehängt hatte, er hatte Merkzettel daran befestigt, einen Kalender , einige Fotos von ihm und Freunden.",
+      "Kalenter oder Kalender sind Derwische, die meistens eine zügellose, vagabundierende Lebensweise führen. Das Rasieren des Barthaares und zuweilen auch der Augenbrauen ist unter ihnen vorherrschend."
+    ],
+    "english": "calendar"
+  },
+  {
+    "lemma": "Licht",
+    "part_of_speech": "noun",
+    "gender": "das",
+    "pronunciation": {
+      "ipa": [
+        "lɪçt"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Lichte"
+      ],
+      "cases": {
+        "nominative": "das Licht",
+        "accusative": "das Licht"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Auge des Haarwildes",
+        "Helligkeit, die tagsüber unter normalen Umständen vorherrscht",
+        "Physik: elektromagnetische Welle im Bereich von Infrarot bis Ultraviolett",
+        "Physik: natürliche Beleuchtungsquelle",
+        "allgemeine Beleuchtung",
+        "künstliche Beleuchtung",
+        "ohne Plural: von einer Quelle ausgehender, gut sichtbarer Anteil des elektromagnetischen Spektrums",
+        "positiver Wert, Meisterleistung",
+        "übertragen: elektrischer Strom"
+      ],
+      "en": [
+        "artificial lighting",
+        "daylight",
+        "eye of game animal",
+        "figurative: electric current",
+        "general lighting",
+        "no plural: visible light",
+        "outstanding achievement",
+        "physics: electromagnetic wave from infrared to ultraviolet",
+        "physics: natural light source"
+      ]
+    },
+    "examples": [
+      "Aus der Dickung äugten zwei Paar Lichter.",
+      "Bei Licht sieht es anders aus.",
+      "Das Licht wird als ein Bombardement von Teilchen (Photonen) veranschaulicht.",
+      "Der Schein mehrerer Deckenlampen hüllte den Raum in warmes Licht .",
+      "Die Lichte sind alle!",
+      "Die beiden eben verschwelenden Lichter , die mit ihrem Qualme die schon stickige Luft noch stickiger gemacht hatten, hatten allerlei Getier vom Garten her in das Zimmer gelockt, und nur über Art und Beschaffenheit desselben war noch ein Zweifel.",
+      "Dieses Licht schmeichelt mir.",
+      "Er stellte sein Licht unter den Scheffel und wurde bei den Beförderungen regelmäßig übersehen.",
+      "Es standen viele Lichter am Himmel.",
+      "Gibt es hier Licht?",
+      "Mach bitte das Licht an!",
+      "Nichts ist schneller als das Licht.",
+      "Tatsächlich sollten wir aber im Hinterkopf behalten, dass wir nicht genau sagen können, was Licht eigentlich ist.",
+      "Wir warten auf das Licht."
+    ],
+    "english": "light"
+  },
+  {
+    "lemma": "Bild",
+    "part_of_speech": "noun",
+    "gender": "das",
+    "pronunciation": {
+      "ipa": [
+        "bɪlt"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Bilder"
+      ],
+      "cases": {
+        "nominative": "das Bild",
+        "accusative": "das Bild"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Abbildung von etwas (zum Beispiel Fotografie)",
+        "Anblick von jemandem oder etwas",
+        "Eindruck/Vorstellung über jemanden oder etwas",
+        "Kunst, Malerei: (künstlerische) zweidimensionale Darstellung und Wiedergabe in Form eines Gemäldes, einer Zeichnung oder Grafik",
+        "Mathematik, bei Abbildungen: Teilmenge der Zielmenge, deren Elemente von der Abbildung, begrenzt auf eine bestimmte Teilmenge der Definitionsmenge, als Funktionswert angenommen werden",
+        "Mathematik, bei Abbildungen: einem Element der Definitionsmenge zugeordnetes Element der Zielmenge",
+        "Spiegelung in etwas",
+        "Theater: Abschnitt eines Bühnenstücks mit gleichbleibender Dekoration",
+        "kurz für: Bilddatei",
+        "kurz für: Fernsehbild",
+        "metaphorische oder symbolischer sprachlicher Ausdruck",
+        "umgangssprachlich: Oberbegriff für jegliche Art bildlicher Darstellung/Illustration"
+      ],
+      "en": [
+        "art, painting: artistic two-dimensional representation such as a painting, drawing, or graphic",
+        "colloquial: general term for any kind of visual depiction or illustration",
+        "depiction of something (for example a photograph)",
+        "impression or perception of someone or something",
+        "mathematics: element of the codomain assigned to an element of the domain",
+        "mathematics: subset of the codomain consisting of values taken by a function on a subset of the domain",
+        "metaphorical or symbolic linguistic expression",
+        "reflection in something",
+        "short for: image file",
+        "short for: television image",
+        "sight of someone or something",
+        "theater: section of a stage play with unchanged scenery"
+      ]
+    },
+    "examples": [
+      "Anfangs hatte Johns das Bild mit Lackfarben zu malen unternommen, doch die trockneten ihm zu langsam, sodass er zu Wachsfarben wechselte.",
+      "Auf die Frage, wo die vorübergehend aufgenommen Faszikel jüngster Zeit registriert seien, hatte der Gehilfe den Archivar gebeten, nichts zu überstürzen und sich über den Verbleib dieser Stücke, besonders falls sich ein persönliches Interesse damit verknüpfte, erst zu orientieren, sobald er sich durch weitere Einarbeit ein umfassenderes Bild vom Archiv und von der Stadt verschafft habe.",
+      "Auf diesem Bild siehst du aber komisch aus.",
+      "Auf eben dieser Bank, ein Bild des Behagens, saß der alte Stechlin in Joppe und breitkrempigem Filzhut und sah, während er aus seinem Meerschaum allerlei Ringe blies, auf ein Rundell, in dessen Mitte, von Blumen eingefaßt, eine kleine Fontäne plätscherte.",
+      "Der Kanzler konnte sich ein Bild vom Ausmaß der Katastrophe verschaffen.",
+      "Der Weißabgleich erfolgt erst bei der Konvertierung oder bei der Bearbeitung der Bilder am Computer.",
+      "Die Menge aller Elemente von A, die ein Bild besitzen, heißt Definitionsbereich oder Urbildbereich der Abbildung f (Symbol:db(f)).",
+      "Die Natur prägt das Bild der Kleinstadt.",
+      "Dieses Bild hat eine hohe Auflösung, obwohl es komprimiert wurde.",
+      "Dieses Bild ist von Paul Klee.",
+      "Dieses Bild zeigt Paul Klee.",
+      "Er ist ein Bild von einem Mann.",
+      "Er schaut sein Bild im Spiegel an.",
+      "Früher war das Bild unseres Fernsehers bei schlechtem Wetter stark verschneit.",
+      "Heute hab ich mir die Bild am Zeitungskiosk gekauft.",
+      "Ich konnte mir bis dato kein rechtes Bild vom Krieg machen.",
+      "Im ersten Bild sah man zu Anfang kaum etwas, dafür war die ganze Bühne im dritten in grellstes Licht getaucht.",
+      "In einer Schaltung gemäß diesem Bild lassen sich die elektrischen Verhältnisse leicht übersehen.",
+      "Jedes Bild ist in fünf bzw. sechs Auflösungsstufen, sogenannten Image Pacs, abgelegt.",
+      "Manche Bildformate verwenden transparente Pixel im Bild . Bilder in solchen Formaten lassen sich in AutiCAD transparent schalten.",
+      "Mithilfe sprachlicher Bilder wirkt der Text eindrucksvoller.",
+      "Nachdem die Bombe explodiert war, bot die Straße nur noch ein Bild der Verwüstung.",
+      "Narziss sah sein Bild in der Quelle und war sofort in sich selbst verliebt.",
+      "Ob sie in der Küche hantierte – ich hatte auch ihr einmal geholfen, Schnittchen zu machen –, ob sie lächelte, tanzte oder malte, es war so selbstverständlich, wenn auch die Bilder , die sie malte, mir nicht gefielen.",
+      "Weißt du, wer dieses Bild gemalt hat?",
+      "Wenn Sie keine eigene Auswahl treffen können, werden die Bilder meist automatisch auf dem Desktop bzw. Schreibtisch abgelegt.",
+      "[übertragen:] Sie ist ganz das Bild ihrer Mutter."
+    ],
+    "english": "picture"
+  },
+  {
+    "lemma": "Poster",
+    "part_of_speech": "noun",
+    "gender": "das",
+    "pronunciation": {
+      "ipa": [
+        "ˈpoːstɐ"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Poster"
+      ],
+      "cases": {
+        "nominative": "das Poster",
+        "accusative": "das Poster"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Plakat mit künstlerischem oder provozierendem Anspruch",
+        "Schautafel bei einem wissenschaftlichen Kongress",
+        "Verfasser eines Posts"
+      ],
+      "en": [
+        "author of a post",
+        "display board at a scientific conference",
+        "poster with artistic or provocative intent"
+      ]
+    },
+    "examples": [
+      "An den Wänden hingen zwei Poster .",
+      "An seinem Schreibtisch hingen ein Poster von Homer Simpson, ein Kalender der NASA, ein Poster mit dem Namen »Pale Blue Dot« und eine Kopie seiner Promotionsurkunde, die lediglich mit einer Heftzwecke an der Wand fixiert war.",
+      "Das Poster meines Lieblingsschauspielers hängt an der Wand.",
+      "Ich habe die Zeiten der strengen Rassentrennung in den Vereinigten Staaten nicht mehr erlebt, ich musste nie im Bus hinten stehen, doch als ich aus den tristen Fluren der Berliner Ausländerpolizei in ein frisch gestrichenes Zimmer mit Topfpflanzen und Postern gebeten wurde, konnte ich mich des Gefühls nicht erwehren, dass man mich durch den Eingang für Gewöhnliche gelassen hatte.",
+      "Ich halte doch noch kurz inne und betrachte das Poster genauer.",
+      "In einem iranischen Reisebüro hatte ich einmal ein Poster hängen sehen, lange vor dem Erdbeben.",
+      "Professor Hartmann redet nicht, aber die Arbeitsgruppe ist mit einem Poster vertreten.",
+      "Vorsorglich knipst Siegfried die großen Poster an den Wänden."
+    ],
+    "english": "poster"
+  },
+  {
+    "lemma": "Stift",
+    "part_of_speech": "noun",
+    "gender": "der",
+    "pronunciation": {
+      "ipa": [
+        "ʃtɪft"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Stifte"
+      ],
+      "cases": {
+        "nominative": "das Stift",
+        "accusative": "das Stift"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Botanik: Dorn der Pflanzen",
+        "Botanik: Pfahl, Stamm eines Baumes",
+        "Botanik: Stängel von Pflanzen",
+        "Gaunersprache: etwas kleines Geringwertiges, Unbedeutendes",
+        "Namibia: Kind",
+        "Technik: Maschinenelement zum Verbinden von Teilen und zum Sichern gegen deren willkürliches Lösen",
+        "Zahnmedizin: dünner, länglicher, spitzer Körper zum Befestigen eines künstlichen Zahnes in einer Zahnwurzel",
+        "Zoologie: Stachel eines Tiers, steifes Haar, Zahnstumpf",
+        "alttestamentliche Bibelsprache: Bund, Vertrag zwischen zwei Parteien",
+        "eine mit Grundvermögen oder Kapitalien ausgestattete autonome Anstalt, ursprünglich religiösen Charakters, jünger auch für weltliche Gründungen gemeinnütziger Art mit den dazu gehörigen Personen, Gebäuden und Gütern",
+        "im engeren Sinne zu [2]: Gebiet, Landbesitz, der zu einem Bistum oder Erzbistum gehört",
+        "im engeren Sinne zu [2]: Kanonissinnenstift, freie adlige Damenstift",
+        "im engeren Sinne zu [2]: Kollegium der Stiftsherren einer Kollegiatkirche, eines Bistums (Domkapitel), Erzbistums",
+        "im engeren Sinne zu [2]: die Pfründe eines Stifts, besonders der Kanoniker",
+        "im engeren Sinne zu [2]: mit gestiftetem Grundbesitz und Vermögen ausgestattete, einem geistlichen Kollegium gehörende, kirchlichen Zwecken dienende Anstalt",
+        "im engeren Sinne zu [3], elliptisch: Stiftsgebäude, vereinzelt auch: Stiftskirche",
+        "im erweiterten Sinne zu [1] und [6]: Schreibgerät",
+        "im erweiterten Sinne zu [1], häufig Technik: länglicher, zum Teil spitzer Körper ohne besondere Differenzierung – oft aus Metall",
+        "im erweiterten Sinne zu [1]: (dünner) Nagel, (speziell) Nagel ohne Kopf",
+        "künstlich hergestellter länglicher, meist zylindrischer Körper aus Metall oder Holz, oft mit einer Spitze, der vielfachen Verwendungsmöglichkeiten dient",
+        "länglicher, spitzer Gegenstand natürlichen Ursprungs",
+        "umgangssprachlich, im übertragenen Sinne zu [7]: Nachhilfeschüler",
+        "umgangssprachlich, im übertragenen Sinne zu [7]: Studienreferendar",
+        "umgangssprachlich: (jüngster) Lehrling",
+        "umgangssprachlich: Junge von kleinem Wuchs",
+        "umgangssprachlich: Penis",
+        "umgangssprachlich: Rekrut",
+        "umgangssprachlich: Sohn",
+        "umgangssprachlich: Unterstufenschüler; Schulanfänger",
+        "umgangssprachlich: junger Mann",
+        "veraltet, Bayern, Österreich: Versammlung der Zinsbauern zur Ordnung dieses Verhältnisses und Leistung der Abgaben",
+        "veraltet, Bayern, Österreich: der sich aus diesem Rechtsverhältnis ergebende Pachtzins, die Steuer",
+        "veraltet, Bayern, Österreich: rechtlicher Fachbegriff in verschiedener Anwendung",
+        "veraltete Bedeutung: Einrichtung, Festsetzung, Gründung, Anordnung"
+      ],
+      "en": [
+        "Namibia: child",
+        "Old Testament language: covenant, treaty between two parties",
+        "artificially made elongated, usually cylindrical object of metal or wood, often pointed",
+        "autonomous foundation endowed with property or capital, originally religious, later also secular charitable institution",
+        "botany: plant stem",
+        "botany: plant thorn",
+        "botany: stake or tree trunk",
+        "colloquial, figurative: trainee teacher",
+        "colloquial, figurative: tutoring student",
+        "colloquial: (youngest) apprentice",
+        "colloquial: elementary school pupil; beginner",
+        "colloquial: penis",
+        "colloquial: recruit",
+        "colloquial: small boy",
+        "colloquial: son",
+        "colloquial: young man",
+        "dentistry: thin elongated post for fixing an artificial tooth",
+        "elongated pointed object of natural origin",
+        "extended sense, often technical: elongated, partly pointed object, often metal",
+        "extended sense: thin nail, especially headless nail",
+        "extended sense: writing instrument",
+        "narrow sense: benefice of a foundation, especially of canons",
+        "narrow sense: chapter of canons of a collegiate church or cathedral",
+        "narrow sense: collegiate building, occasionally collegiate church",
+        "narrow sense: convent of canonesses; noble ladies’ foundation",
+        "narrow sense: ecclesiastical foundation with endowed property serving church purposes",
+        "narrow sense: territory or land belonging to a diocese or archdiocese",
+        "obsolete meaning: establishment, institution, founding, arrangement",
+        "obsolete, Bavaria/Austria: assembly of rent-paying farmers to regulate this relationship and pay dues",
+        "obsolete, Bavaria/Austria: legal technical term with various uses",
+        "obsolete, Bavaria/Austria: rent or tax arising from this legal relationship",
+        "technology: machine element for joining parts and preventing loosening",
+        "thieves’ slang: something small and insignificant",
+        "zoology: animal spine, stiff hair, or tooth stub"
+      ]
+    },
+    "examples": [
+      "Fabiola kramte einen Stift aus ihrer Handtasche und schrieb die Formel auf die Rückseite eines Kassenzettels.",
+      "Am Stift des Baumes war ein braunes Eichhörnchen, das mich beobachtete.",
+      "Bei Gefahr rollen sich Stachelschweine zusammen und richten ihre Stifte auf.",
+      "Die Stängel der Distel könnte man Stifte nennen.",
+      "Dieses Laufrad lässt sich mit einem Stift befestigen.",
+      "Einige Disteln haben längliche Stifte am Stängel.",
+      "Einige Pflanzen schützen sich durch Stifte , die man gewöhnlich Dornen oder Stacheln nennt.",
+      "Erst als er Notizbuch, Stift , Brillenetui, Stirnlampe und Reiseführer in übersichtlicher Anordnung auf dem Boden platziert hatte – alle Gegenstände nach Größe sortiert und in einem 90-Grad-Winkel zur Wand – schien er sich zu entspannen.",
+      "Für diesen Zweck braucht man einen spitzenlosen zylindrischen Stift .",
+      "Jürgen Loose klopft mit seinem Stift unruhig auf das Papier.",
+      "Kannst du mir einmal deinen Stift leihen? Ich muss etwas aufschreiben.",
+      "Mein Zahnarzt hat mir eine Zahnkrone mit einem Stift befestigt.",
+      "Robinson ließ den Zapfen des Schützes um drei Löcher steigen und blockierte ihn, indem er einen Stift in das vierte Loch steckte.",
+      "Sylvia kehrte in das Hinterzimmer ihres eigenen Ladens zurück und verfasste mit einem Stift , der mit jedem Wort leichter wurde, einen Antwortbrief an Roth und seinen Anwalt, in dem sie erklärte, dass sie die Klage fallen ließ.",
+      "Unsere kopflosen Stifte sind verzinkt, um Korrosion vorzubeugen."
+    ],
+    "english": "pen"
+  },
+  {
+    "lemma": "Buch",
+    "part_of_speech": "noun",
+    "gender": "das",
+    "pronunciation": {
+      "ipa": [
+        "buːx"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Bücher"
+      ],
+      "cases": {
+        "nominative": "das Buch",
+        "accusative": "das Buch"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Gliederungseinheit eines literarischen Werkes, auch bei umfangreichen Gesetzbüchern (zum Beispiel im Bürgerlichen Gesetzbuch)",
+        "Teil einer Zeitung",
+        "Text für ein Theaterstück, einen Film",
+        "Wettliste bei Pferderennen",
+        "Zusammenstellung von Einnahmen und Ausgaben, Beständen und dergleichen",
+        "Zählmaß für Blattgold",
+        "Zählmaß für Papier",
+        "fest gebundenes Schriftwerk",
+        "literarische Publikation in Buchform"
+      ],
+      "en": [
+        "hardcover book",
+        "betting list",
+        "compilation of income and expenses, assets, and similar items",
+        "counting unit for gold leaf",
+        "counting unit for paper",
+        "literary book",
+        "section of a newspaper",
+        "structural unit of a literary work, also used in extensive law codes (e.g. the German Civil Code)",
+        "text for a play or a film; script"
+      ]
+    },
+    "examples": [
+      "Zunächst also zu dem, was der Autor persönlich über den Lebenslauf des Helden vorliegenden Buches weiß.",
+      "An heißen Wochenenden, vor den Sommerferien, sonnte sich Irmhild auf der Schulwiese hinterm Haus, im Bikini, mit einem Kettchen um die Wespentaille, korrigierte auch Hefte im Liegestuhl sitzend, las Bücher und Zeitschriften und trank Orangensaft und rauchte Zigaretten dabei.",
+      "Bücher staubt man am besten mit einem speziellen Besen ab, der aus sehr feinem Ziegenhaar besteht.",
+      "Da ihr das Buch nicht gefiel, war sie nicht bereit, an dem Film mitzuwirken.",
+      "Das Alte Testament enthält unter anderem fünf Bücher Moses.",
+      "Das Buch bleibt bis tief ins Hochmittelalter hinein ein Gegenstand der Verehrung und des Respekts, ein Numinosum als Wort- und Zeichenträger, ganz abgesehen von der Kostbarkeit im materiellen Sinn.",
+      "Die richtigen Bücher erzielen ihre Wirkung durch ihre bloße Existenz, sie müssen nicht gelesen werden.",
+      "Ein Buch zu schreiben dauert oft mehrere Jahre.",
+      "Ihm war es aber hauptsächlich darum zu tun, etwas Vollendetes zu schaffen und nicht eher zu ruhen, als bis sein Ideal, das ihm vom gedruckten Buch vorschwebte, verwirklicht sei; die Bibel, die er herausbringen wollte, sollte zeigen, was er mit seiner Kunst zu erreichen vermochte.",
+      "In Radiosendungen, Filmen, Büchern , Broschüren und öffentlichen Gerichtsverhandlungen soll dem Volk der Täter bewußt werden, welchen Weg es beschritten hat.",
+      "In diesem Buche will ich Kindern einiges aus meiner Kindheit erzählen.",
+      "In einer Bibliothek werden Bücher gesammelt und den Benutzern zur Verfügung gestellt.",
+      "Irgendwann suchte er im Netz nach der E-Mail-Adresse von Wolf Singer, einem renommierten Neurowissenschaftler, von dem er einige Bücher gelesen hatte.",
+      "Wenn man seine Kosten kontrollieren will, sollte man über die Ausgaben genau Buch führen."
+    ],
+    "english": "book"
+  },
+  {
+    "lemma": "Tasse",
+    "part_of_speech": "noun",
+    "gender": "die",
+    "pronunciation": {
+      "ipa": [
+        "ˈtasə"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Tassen"
+      ],
+      "cases": {
+        "nominative": "die Tasse",
+        "accusative": "die Tasse"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "als Maß: Inhalt eines solchen Trinkgefäßes",
+        "das unter [1] beschriebene Trinkgefäß mit dazugehöriger Untertasse",
+        "mit einem Henkel versehenes, kleines Trinkgefäß von mannigfaltiger Form"
+      ],
+      "en": [
+        "as a measure: contents of such a cup",
+        "small drinking vessel with a handle; cup",
+        "the cup described in [1] together with a saucer; cup and saucer"
+      ]
+    },
+    "examples": [
+      "Als der Polizeidiener zu ihr kam, fand er sie mit sechs ihrer Kinder in einem kleinen Hinterstübchen buchstäblich zusammengedrängt, ohne Möbel, ausgenommen zwei alte Binsenstühle ohne Boden, einen kleinen Tisch mit zwei zerbrochenen Beinen, eine zerbrochene Tasse und eine kleine Schüssel.",
+      "Er knüllt den Schriftsatz zusammen und haut ihn auf den Tisch, daß die Tassen fliegen.",
+      "Es fehlen noch Tassen zum Gedeck.",
+      "Sie trank ihre Tasse hastig aus, bevor sie zur Arbeit eilte.",
+      "Und sie tippte so erregt mit dem Zeigefinger auf den Tisch, daß die Tassen wackelten.",
+      "Wir sitzen allein im Salon, die einzigen Geräusche machen unsere Tassen , wenn wir sie auf die Untertassen absetzen."
+    ],
+    "english": "cup"
+  },
+  {
+    "lemma": "Pflanze",
+    "part_of_speech": "noun",
+    "gender": "die",
+    "pronunciation": {
+      "ipa": [
+        "ˈp͡flant͡sə"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Pflanzen"
+      ],
+      "cases": {
+        "nominative": "die Pflanze",
+        "accusative": "die Pflanze"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Botanik: eukaryotischer Organismus, der meist in der Lage ist, Photosynthese zu betreiben",
+        "eigenartiger, ungeratener Mensch"
+      ],
+      "en": [
+        "botany: eukaryotic organism usually capable of photosynthesis",
+        "odd, misfit person"
+      ]
+    },
+    "examples": [
+      "Risiken beim Einsatz gentechnisch veränderter Pflanzen sind neben einer Bedrohung der Artenvielfalt auch Nebeneffekte wie das Auftreten neuer unerwünschter Eigenschaften bei den Pflanzen, aber auch allergische Reaktionen bei den Verbrauchern.",
+      "Der Boden ist ein wichtiger Teil der Biosphäre an Land, weil die meisten Pflanzen ihn für ihr Wachstum brauchen.",
+      "Man kann beispielsweise Pflanzen mittels Gentechnik so manipulieren, dass sie gegen bestimmte Krankheiten immun oder unempfindlich gegen sonst giftige chemische Pflanzenschutzmittel werden.",
+      "In Wüsten erweckt erst der Regen einige Pflanzen zum Leben. Andere überleben die Dürre, indem sie Wasser in ihren Stängeln oder Wurzeln speichern.",
+      "Nach heutiger Auffassung sind Pilze keine Pflanzen.",
+      "Sie ist eine seltsame Pflanze."
+    ],
+    "english": "plant"
+  },
+  {
+    "lemma": "Blume",
+    "part_of_speech": "noun",
+    "gender": "die",
+    "pronunciation": {
+      "ipa": [
+        "ˈbluːmə"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Blumen"
+      ],
+      "cases": {
+        "nominative": "die Blume",
+        "accusative": "die Blume"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Botanik: blühende Pflanze",
+        "Jägersprache: Schwanz eines Hasen oder eines Kaninchens",
+        "Schaumkrone auf einem gefüllten Bierglas",
+        "allgemein für: Grünpflanze (auch nicht blühende)",
+        "typischer Geruch eines Weines"
+      ],
+      "en": [
+        "botany: flowering plant",
+        "characteristic aroma of a wine",
+        "foam head on a glass of beer",
+        "general: green plant (including non-flowering)",
+        "hunting: tail of a hare or rabbit"
+      ]
+    },
+    "examples": [
+      "Blumen produzieren Pollenkörner. Sie sind klein und leicht und einige von ihnen so geformt, dass sie über lange Entfernungen durch die Luft treiben können.",
+      "Die beiden waren in die getäfelte Eingangshalle getreten, die mit Blumen und Blattpflanzen geschmückt war.",
+      "Die Ägypter wünschten sich, dass ihr Dasein wie eine blühende Blume sein möge.",
+      "Dieser Wein hat eine feine, rebsortentypische Blume.",
+      "Eine schöne Blume, die du da gepflückt hast.",
+      "Er gab nun die Blumen auf und schritt auf einen der beiden Laubengänge zu, die den großen Parkgarten flanierten und von der Höhe bis fast an den Fuß des Schloßhügels herniederstiegen.",
+      "Je größer die Blume, desto mehr ist die Verdienstspanne des Wirtes.",
+      "So mancher Pflanzenfreund spricht mit seinen Blumen, wenn er sie gießt.",
+      "Vom Hasen war nur noch die verschwindende Blume zu sehen."
+    ],
+    "english": "flower"
+  },
+  {
+    "lemma": "Vase",
+    "part_of_speech": "noun",
+    "gender": "die",
+    "pronunciation": {
+      "ipa": [
+        "ˈvaːzə"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Vasen"
+      ],
+      "cases": {
+        "nominative": "die Vase",
+        "accusative": "die Vase"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "der Zierde oder (oft) zum Aufbewahren von Blumen dienendes Gefäß"
+      ],
+      "en": [
+        "vessel used for decoration or (often) for holding flowers"
+      ]
+    },
+    "examples": [
+      "Auf dem Kaminsims stehen wertvolle Vasen aus verschiedenen Epochen.",
+      "Clerfayt sah eine Vase mit weißem Flieder und einen langen Zweig flacher, weißer Orchideen.",
+      "Einmal war es um eine umgestoßene Vase gegangen.",
+      "Mir ist die Vase heruntergefallen."
+    ],
+    "english": "vase"
+  },
+  {
+    "lemma": "Fenster",
+    "part_of_speech": "noun",
+    "gender": "das",
+    "pronunciation": {
+      "ipa": [
+        "ˈfɛnstɐ"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Fenster"
+      ],
+      "cases": {
+        "nominative": "das Fenster",
+        "accusative": "das Fenster"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Architektur: eine baulich verschieden ausgestaltete verglaste Öffnung in einem Bauwerk, deren hauptsächliche Funktion darin besteht, Licht in das Bauwerk zu führen und dieses zu belüften",
+        "Informatik: ein Bildschirmelement in der Informationstechnologie",
+        "das gerahmte Glas, das in eine Fensteröffnung eingesetzt wird",
+        "übertragen: eine zeitliche, temporäre Öffnung in einem (mitunter häufig auch abstrakten) Medium"
+      ],
+      "en": [
+        "architecture: glazed opening in a building primarily for admitting light and ventilation; window",
+        "computer science: screen element; window",
+        "figurative: temporal opening in a (often abstract) medium; window",
+        "framed glass inserted into a window opening; window sash"
+      ]
+    },
+    "examples": [
+      "Alle Fenster standen offen.",
+      "Das Fenster bitte nicht öffnen!",
+      "Das Fenster ist nach Arbeitsende unbedingt zu schließen.",
+      "Das Schließen eines Fensters auf dem Bildschirm wird meist mit dem Klicken eines Kreuzsymbols erreicht.",
+      "Ich drücke die Stirn ans Fenster , um etwas von der Landschaft zu sehen.",
+      "In einem feinen Kaffeehaus in der Nähe des Praters hatte ich es mir an einem Tisch am Fenster gemütlich gemacht.",
+      "Lukas hat heute im Baumarkt ein neues Fenster gekauft.",
+      "Mein Fenster ging auf den Hinterhof hinaus.",
+      "Schließe bitte das Fenster, wenn du den Raum verlässt.",
+      "Schluss! Das Fenster wird jetzt zugemacht, du hast dich genug mit den Straßenpassanten unterhalten.",
+      "Um Energie zu sparen, werden häufig neue Fenster eingebaut.",
+      "Um durch das enge Gitter vor dem Fenster zu kommen, muß man fast ein Zirkusakrobat sein, so Blume.",
+      "Und nun öffnet sich das Fenster in die Vergangenheit.",
+      "Vor den Fenstern standen Wachposten, und zwischen uns und der Küste ragten zwei Reihen Holzpfähle auf."
+    ],
+    "english": "window"
+  },
+  {
+    "lemma": "Boden",
+    "part_of_speech": "noun",
+    "gender": "der",
+    "pronunciation": {
+      "ipa": [
+        "ˈboːdn̩"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Böden"
+      ],
+      "cases": {}
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Gastronomie, kurz für: Tortenboden",
+        "Geologie: die oberste Schicht der Erdkruste",
+        "besonders ostmitteldeutsch, norddeutsch, Ostösterreich, kurz für: Dachboden",
+        "unterer Abschluss eines Gefäßes"
+      ],
+      "en": [
+        "bottom of a container",
+        "especially East Central German, Northern German, Eastern Austrian: attic",
+        "gastronomy: cake base",
+        "geology: the uppermost layer of the Earth's crust"
+      ]
+    },
+    "examples": [
+      "Auf unserem eigenen Grund und Boden durften wir nicht bauen.",
+      "Birken schienen ihr eigenes Mikroklima mitzubringen, dachte ich, sie wuchsen in nassen und trockenen Böden , auf Wiesen, in Wäldern, Mooren und auf Dünen.",
+      "Der Boden ist ein wichtiger Teil der Biosphäre an Land, weil die meisten Pflanzen ihn für ihr Wachstum brauchen.",
+      "Der Eimer hat ein Loch im Boden.",
+      "Der Weihnachtsschmuck liegt auf dem Boden.",
+      "Die Böden sind in verschiedenen Klimazonen ganz unterschiedlich.",
+      "Die Tasse fiel auf den Boden.",
+      "Gestern war ich mit dem Kopf auf der Sofalehne aufgewacht, mit einem staubigen Geschmack im Mund, auf dem Boden eine umgestoßene Kaffeetasse und daneben eine umgefallene Zimmerlinde (Sparrmannia africana), keine Ahnung, wie das passiert war.",
+      "Ich hole mal eben etwas vom Boden.",
+      "Ich muss noch den Boden wischen.",
+      "Mutter backt die besten Böden.",
+      "Oma hat den Boden mit Erdbeeren belegt."
+    ],
+    "english": "floor"
+  },
+  {
+    "lemma": "Klavier",
+    "part_of_speech": "noun",
+    "gender": "das",
+    "pronunciation": {
+      "ipa": [
+        "klaˈviːɐ̯"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Klaviere"
+      ],
+      "cases": {
+        "nominative": "das Klavier",
+        "accusative": "das Klavier"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Tasteninstrument, dessen Klang durch Saiten erzeugt wird"
+      ],
+      "en": [
+        "keyboard instrument whose sound is produced by strings; piano"
+      ]
+    },
+    "examples": [
+      "Am Klavier Ernst Witt, Gesang: Lilo Wolf.",
+      "Der Flügel ist ein Klavier mit waagrecht liegenden Saiten.",
+      "Die Möbelpacker schleppten ein Mordstrumm von gebrauchtem Klavier durch die Garage und die Waschküche in den Hobbyraum.",
+      "Ein Klavier muss regelmäßig gestimmt werden.",
+      "Früher hatte ein Klavier Tasten in Ebenholz und Elfenbein.",
+      "Ich spiele Klavier.",
+      "Man müsste Klavier spielen können, wer Klavier spielt, hat Glück bei den Frau'n.",
+      "Statt lange zu frühstücken, wollte ich lieber auf dem Klavier spielen.",
+      "Vor dem Zimmer, aus dem die Töne des Klaviers kamen, stiessen sie auf die hübsche, blonde Französin."
+    ],
+    "english": "piano"
+  },
+  {
+    "lemma": "Wand",
+    "part_of_speech": "noun",
+    "gender": "die",
+    "pronunciation": {
+      "ipa": [
+        "vant"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Wände"
+      ],
+      "cases": {
+        "nominative": "die Wand",
+        "accusative": "die Wand"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "(einzelne) senkrechte, steile Fläche",
+        "Architektur: ein senkrecht stehendes Bauteil, das einen Raum seitlich begrenzt, besonders die nach innen gewandte Fläche dieses Bauteils",
+        "Bergbau: abgetrenntes Gesteinsstück größeren Umfangs",
+        "Meteorologie: aufragende Kante eines Gebildes, das den Himmel verdunkelt; Gewitterwand",
+        "Seite oder Fläche, die irgendeinen Raum oder Hohlkörper begrenzt",
+        "übertragen: etwas, das eine Barriere bildet, einen Sichtschutz oder eine gemauerte Raumbegrenzung verdeckt"
+      ],
+      "en": [
+        "(single) vertical, steep surface",
+        "architecture: a vertical building element that laterally encloses a space, especially its inward-facing surface",
+        "figurative: something that forms a barrier, screens the view, or conceals a walled boundary",
+        "meteorology: towering edge of a formation darkening the sky; storm wall",
+        "mining: a large detached piece of rock",
+        "side or surface that bounds a space or hollow body"
+      ]
+    },
+    "examples": [
+      "Wenn du als Besucher deinen Blick über die Wände der ägyptischen Tempel wandern lässt, wirst du sehr bald auf zahlreiche Beispiele dieser Formulierung stoßen.",
+      "An der Wand hing ein Portrait des Präsidenten.",
+      "Beim Klettern verlor er den Halt und hing in der Wand, bis ihn die Bergwacht rettete.",
+      "Der Extremkletterer setzt sich nicht ‚todesmutig’ oder gar ‚blind’ einer ‚mörderischen Wand ’ aus, sondern sichert sich mit Seil und Haken, vertraut seinen Eisen, seinem Können, seiner Sorgfalt, seiner Konzentrationsfähigkeit, seinem Selbsteinschätzungsvermögen, seinem Krisenmanagement, seiner Erfahrung.",
+      "Die Wand des Magens ist mit einer Schleimhaut bedeckt.",
+      "Die Wände des Wohnzimmers waren rosa.",
+      "Die Wände stellen wir rechts und links vom Eingang auf und die Stehtische dort hinten.",
+      "Diese werden dann dünn gehackt, mittels Pulver weggesprengt oder auch weggebrannt und die unterhöhlte Wand kommt zu Fall.",
+      "Sina saß in seinem Schaukelstuhl und starrte die Wand an.",
+      "Walters Kopf schlug gegen die vordere Wand der Kiste.",
+      "Wir sitzen im Cockpit und schaue zu, wie sich die Wand des Gewitters in rasender Geschwindigkeit nähert.",
+      "Wir trafen in dem Dorf auf eine Wand des Schweigens."
+    ],
+    "english": "wall"
+  },
+  {
+    "lemma": "Mikrofon",
+    "part_of_speech": "noun",
+    "gender": "das",
+    "pronunciation": {
+      "ipa": [
+        "mikʁoˈfoːn"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Mikrofone"
+      ],
+      "cases": {
+        "nominative": "das Mikrofon",
+        "accusative": "das Mikrofon"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Technik: ein technisches Gerät zur Aufnahme von Tönen"
+      ],
+      "en": [
+        "technology: technical device for recording sounds"
+      ]
+    },
+    "examples": [
+      "Donald Trump dagegen legt erst richtig los, wenn er ein Mikrofon sieht.",
+      "In der fünften Klasse kam der Schuldirektor meiner sowjetischen Schule mitten im Unterricht mit einem großen Tonbandgerät und einem Mikrofon zu uns in die Klasse.",
+      "Nach der Hauptspeise ergriff sie dann das Mikrofon .",
+      "Nach der Premiere war der berühmte Regisseur sofort von unzähligen Kameras und Mikrofonen umringt.",
+      "Sichtlich nervös ist er, während links neben ihm am Mikrofon der junge König der Belgier spricht, das Oberhaupt der alten Kolonialmacht, eigens angereist aus seinem Heimatland."
+    ],
+    "english": "microphone"
+  },
+  {
+    "lemma": "Kopfhörer",
+    "part_of_speech": "noun",
+    "gender": "der",
+    "pronunciation": {
+      "ipa": [
+        "ˈkɔp͡fˌhøːʁɐ"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Kopfhörer"
+      ],
+      "cases": {
+        "nominative": "die Kopfhörer",
+        "accusative": "die Kopfhörer"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Audio-Ausgabegerät für eine Person, das am Kopf angebracht wird (die Schallerzeuger befinden sich über oder in den Ohren)"
+      ],
+      "en": [
+        "audio output device worn on the head (speakers over or in the ears)"
+      ]
+    },
+    "examples": [
+      "Als sie Sir Evelyns Frage an Valenti in ihren Kopfhörern vernahm, runzelte sie so heftig die Stirn, daß die Plastikhalter ihrer Kopfhörer nach vorne rutschten.  .",
+      "Dreh die Kopfhörer nicht so laut, dass alle anderen deine Musik hören.",
+      "Er wies auf die grünen Kopfhörer an der Wand, die aber nur wie Kopfhörer aussahen, in Wirklichkeit aber lediglich den Schallpegel dämpften, wenn man einen davon trug.",
+      "Im Auto setzte ich Kopfhörer auf, drehte die Lautstärke hoch und verlor mich im Muster der Lärmschutzwände.",
+      "Zu dramatisch gespannter Cellomusik fuhr ich in die Röhre und ihre Worte kamen nun plötzlich aus dem Kopfhörer ."
+    ],
+    "english": "headphones"
+  },
+  {
+    "lemma": "Teppich",
+    "part_of_speech": "noun",
+    "gender": "der",
+    "pronunciation": {
+      "ipa": [
+        "ˈtɛpɪç"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Teppiche"
+      ],
+      "cases": {}
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Fußbodenbelag aus Stoff",
+        "Wandschmuck aus Stoff",
+        "pfälzisch, schwäbisch: dünne Stoffdecke, Sofadecke"
+      ],
+      "en": [
+        "Palatine, Swabian: thin fabric blanket; sofa throw",
+        "fabric floor covering; carpet",
+        "fabric wall hanging"
+      ]
+    },
+    "examples": [
+      "Alles war voller alter Möbel, verstaubtem Brokat und schweren Teppichen.",
+      "Er hilft ihr, den Teppich dort auszubreiten, wo er vorher gelegen hat - unter dem Arbeitstisch in ihrem großen Zimmer.",
+      "Für den Präsidenten wurde ein roter Teppich ausgerollt.",
+      "Ich muss heute noch den Teppich ausklopfen.",
+      "Mir ist es ein bisschen kalt, gibst du mir bitte den Teppich?",
+      "Sie zieht zwei bunte Teppiche aus ihrer Tasche. Damit er nicht immer auf dem Boden beten müsse, verkündet sie fröhlich und wirft einen missbilligenden Blick in die leere Arbeitshalle, in der viel rostiges Werkzeug herumliegt.",
+      "Um ihm zu zeigen, wie Generale im Felde sich bewegen, hülle ich mich unausgezogen in meine Teppiche und mache mich rund.",
+      "Überall wurden die Vorhänge durch Teppiche ersetzt."
+    ],
+    "english": "rug"
+  },
+  {
+    "lemma": "Spielzeug",
+    "part_of_speech": "noun",
+    "gender": "das",
+    "pronunciation": {
+      "ipa": [
+        "ˈʃpiːlˌt͡sɔɪ̯k",
+        "ˈʃpiːlˌt͡sɔɪ̯ç"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Spielzeuge"
+      ],
+      "cases": {
+        "nominative": "das Spielzeug",
+        "accusative": "das Spielzeug"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Dinge, Gegenstände zum Spielen"
+      ],
+      "en": [
+        "toys"
+      ]
+    },
+    "examples": [
+      "Billiges Spielzeug und später die Spielkonsole sollten ihn beschäftigen.",
+      "Räume dein Spielzeug auf!",
+      "Sie kehren zu ihrem Spielzeug zurück, hocken sich nieder und warten tuschelnd auf Kundschaft.",
+      "Sie nahm ihr mondförmiges Diadem ab und drehte es wie ein Spielzeug in ihren Händen.",
+      "Wir treten ein und staunen über das Angebot an Spielzeug und Devotionalien aus Holz."
+    ],
+    "english": "toy"
+  },
+  {
+    "lemma": "Bildschirm",
+    "part_of_speech": "noun",
+    "gender": "der",
+    "pronunciation": {
+      "ipa": [
+        "ˈbɪltˌʃɪʁm"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Bildschirme"
+      ],
+      "cases": {}
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Technik: Ausgabegerät für Bilder und Zeichen",
+        "Teil des Fernsehapparates oder Computers, auf dem das Bild erscheint"
+      ],
+      "en": [
+        "part of a television or computer on which the image appears",
+        "technology: output device for images and characters"
+      ]
+    },
+    "examples": [
+      "Als die Kameraleute das Flugzeug verlassen hatten, schaute ich zu der Landkarte auf dem Bildschirm, auf der nun Asien im Mittelpunkt stand.",
+      "Auf dem Bildschirm des Echolots kann man genau das gesunkene Schiff sehen.",
+      "Auf dem Bildschirm erschien eine junge Dame, die mir sagte, sie würde mit mir reden und dafür sorgen, daß ich mich gut fühle.",
+      "Dann hatte er es wieder auf den Bildschirm geholt, wieder und wieder.",
+      "Der Wachmann starrt den ganzen Tag auf den Bildschirm, der mit den Überwachungskameras verbunden ist.",
+      "Diese Hanswurste, die mit ihren MPs über den Bildschirm zappelten, waren für Tschetschenen doch etwas zu dunkel.",
+      "Es knallte und der Bildschirm erlosch.",
+      "Ich hatte gestern sogar auf dem Bildschirm des Laptops den Cursor geschlagen, weil ich dachte, es sei eine Mücke.",
+      "Unser neuestes Kommunikationsbaby heißt Skype, und wir können meine Eltern auf dem Bildschirm sehen."
+    ],
+    "english": "picture frame"
+  },
+  {
+    "lemma": "Fisch",
+    "part_of_speech": "noun",
+    "gender": "der",
+    "pronunciation": {
+      "ipa": [
+        "fɪʃ"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Fische"
+      ],
+      "cases": {
+        "nominative": "die Fisch",
+        "accusative": "die Fisch"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Astronomie, Astrologie: zwölftes Sternbild auf der Ekliptik (Tierkreiszeichen) – üblich ist hier der Gebrauch des Plurals die Fische – oder ein in diesem Sternbild Geborener (hier auch Singular)",
+        "Zoologie: Tier, das unter Wasser lebt und durch Kiemen atmet",
+        "kein Plural: Fleisch von [1] als Lebensmittel"
+      ],
+      "en": [
+        "astronomy, astrology: twelfth constellation of the zodiac (Pisces); or a person born under this sign",
+        "no plural: meat of fish as food",
+        "zoology: animal that lives underwater and breathes through gills; fish"
+      ]
+    },
+    "examples": [
+      "Dann wandte ich mich wieder an Claudine, die ihren Fisch in ein Tuch schlug.",
+      "Der Wal ist kein Fisch .",
+      "Es ist verboten, Fische , Krusten- und Weichtiere (Tintenfische, Muscheln und Schnecken) sowie Erzeugnisse aus oder Gerichte mit diesen in Verkehr zu bringen, die in dem zum Genuß bestimmten Tierteil oder Tieranteil den in der Anlage festgesetzten Höchstwert an Quecksilber überschreiten.",
+      "Fische sind meist rätselhafte Menschen.",
+      "Für den Fisch brauchte man Fässer, für die Fässer Dauben, für die Dauben Holz und gegen die Luft dazwischen Pech.",
+      "In den alten Zeiten war der Nil voller Fische, und getrockneter Fisch gehörte zu den Grundnahrungsmitteln der Ägypter.",
+      "Nach und nach erschien auch Formalhaut im Sternbild der Fische über dem Kraterrand, das Dreieck, des Südens und schließlich auch das Kreuz des Südens, der Polarstern der Südhemisphäre.",
+      "Oberhalb des Wasserfalls schoss ein schlanker Fisch mit goldenem Bauch aus der Strömung, zweifellos auf der Jagd nach einem Insekt.",
+      "Sie glotzten herüber wie Fische , die plötzlich überrascht entdecken, daß sie den Angelhaken schon lange verschluckt haben.",
+      "Zwei große Schaufenster waren ausgelegt mit Fischen und Seetieren."
+    ],
+    "english": "fish"
+  },
+  {
+    "lemma": "Wasser",
+    "part_of_speech": "noun",
+    "gender": "das",
+    "pronunciation": {
+      "ipa": [
+        "ˈvasɐ"
+      ]
+    },
+    "morphology": {
+      "plural_forms": [
+        "die Wässer"
+      ],
+      "cases": {
+        "nominative": "das Wasser",
+        "accusative": "das Wasser"
+      }
+    },
+    "grammar_flags": {
+      "reflexive": false,
+      "bound_form": false
+    },
+    "meanings": {
+      "de": [
+        "Medizin: krankhafte Ansammlung von Körperflüssigkeiten im Gewebe",
+        "auch Plural möglich: siehe Plural 1, poetisch, gehoben: für Gewässer",
+        "kein Plural: die chemische Verbindung (Diwasserstoffoxid), der Stoff H2O in flüssigem Aggregatzustand, die aus Wasserstoff und Sauerstoff zusammengesetzt ist",
+        "kein Plural: ein Reinheitsmaß für Diamanten",
+        "nur im Plural 2 üblich oder umgangssprachlich Wässerchen: ein alkoholisches Getränk, welches aus vergorenen Früchten oder anderen Teilen der Pflanze gebrannt wurde",
+        "umgangssprachlich, kurz für: Mineralwasser, Tafelwasser"
+      ],
+      "en": [
+        "colloquial, short for: mineral water, table water",
+        "medicine: pathological accumulation of body fluids in tissue",
+        "no plural: a measure of purity for diamonds",
+        "no plural: the chemical compound (dihydrogen oxide), H2O in liquid state, composed of hydrogen and oxygen",
+        "plural also possible: see plural 1; poetic, elevated: for bodies of water",
+        "used only in plural 2 or colloquially 'little waters': a distilled alcoholic drink made from fermented fruits or other plant parts"
+      ]
+    },
+    "examples": [
+      "Der zusätzliche Gebrauch von Wasser und Seife müsste als grobe luxuriöse Übertreibung angesehen werden.",
+      "Auch sie sprang ins Wasser.",
+      "Beim Fällen des Baums lief ihm das Wasser nur so herunter.",
+      "Da war das Wasser , da war der Wind, die Weiden waren da und die Steine.",
+      "Das Wasser des Diamanten entscheidet über den Preis.",
+      "Das Wasser plätscherte neben ihnen, die Lichter hüpften und tanzten um sie her, und mit Hilfe kleiner Brückenstege machte man sich das Vergnügen, die Flußseite zu wechseln, je nachdem hüben oder drüben der kühlere Schatten lag.",
+      "Ein Wasser , Zahnstocher und die Zeitung bitte!",
+      "Er ging hinunter ans Wasser.",
+      "Er kniete und goß sich Wasser über Kopf und Schultern.",
+      "Er stellte sich an den Baum, um sein Wasser abzuschlagen.",
+      "Er zog an der Leitkette, bis das Maul des Haifischs sich aus dem Wasser hob.",
+      "Esmeralda, holst du bitte noch mehr Wasser aus dem Keller?",
+      "Im Gegensatz zu Geisten stammt bei Wässern der Alkohol aus der Gärung der Früchte.",
+      "Mein Vater ließ das Boot zu Wasser.",
+      "Meine Oma sagt, sie habe Wasser in den Beinen.",
+      "Reines Wasser unterliegt einer sogenannten Autoprotolyse (auch Autodissoziation).",
+      "Sie legten rasch drei Gedecke auf, brachten Brot, Parmesankäse und Wasser , und unter Gelächter aßen sie und tranken mit mir den ihnen ganz ungewohnten Zyperwein, der ihnen bald in den Kopf stieg.",
+      "Sie mischte wohlriechende Wässer.",
+      "Vor lauter Rührung stand ihr das Wasser in den Augen.",
+      "Wenn es heiß ist, trinke ich gern Wasser."
+    ],
+    "english": "water"
+  }
+]

@@ -1,0 +1,1123 @@
+{
+  "id": "KG_ROOT",
+  "label": "360°Deutsch KG",
+  "type": "root",
+  "children": [
+    {
+      "id": "A1",
+      "label": "A1",
+      "type": "level",
+      "children": [
+        {
+          "id": "Home",
+          "label": "Home",
+          "type": "category",
+          "children": [
+            {
+              "id": "Arbeitszimmer",
+              "label": "Arbeitszimmer",
+              "type": "subcategory",
+              "children": [
+                {
+                  "id": "Noun",
+                  "label": "Nouns",
+                  "type": "pos",
+                  "children": [
+                    {
+                      "id": "Schreibtisch",
+                      "label": "Schreibtisch",
+                      "type": "entry",
+                      "gender": "der",
+                      "plural": "Schreibtische",
+                      "ipa": "ˈʃʁaɪ̯pˌtɪʃ",
+                      "examples": [
+                        { "de": "Der Schreibtisch steht im Arbeitszimmer.", "en": "The desk is in the study room." }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": "Stuhl",
+                      "label": "Stuhl",
+                      "type": "entry",
+                      "gender": "der",
+                      "plural": "Stühle",
+                      "ipa": "ʃtuːl",
+                      "examples": [
+                        { "de": "Der Stuhl ist bequem.", "en": "The chair is comfortable." }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": "Lampe",
+                      "label": "Lampe",
+                      "type": "entry",
+                      "gender": "die",
+                      "plural": "Lampen",
+                      "ipa": "ˈlampə",
+                      "examples": [
+                        { "de": "Die Lampe ist an.", "en": "The lamp is on." }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": "Computer",
+                      "label": "Computer",
+                      "type": "entry",
+                      "gender": "der",
+                      "plural": "Computer",
+                      "ipa": "kɔmˈpjuːtɐ",
+                      "examples": [
+                        { "de": "Der Computer ist neu.", "en": "The computer is new." }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": "Buch",
+                      "label": "Buch",
+                      "type": "entry",
+                      "gender": "das",
+                      "plural": "Bücher",
+                      "ipa": "buːx",
+                      "examples": [
+                        { "de": "Das Buch liegt auf dem Tisch.", "en": "The book is on the table." }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "Verb",
+                  "label": "Verbs",
+                  "type": "pos",
+                  "children": [
+                    {
+                      "id": "arbeiten",
+                      "label": "arbeiten",
+                      "type": "entry",
+                      "ipa": "ˈaʁbaɪ̯tən",
+                      "conjugation": {
+                        "ich": "arbeite",
+                        "du": "arbeitest",
+                        "er": "arbeitet",
+                        "wir": "arbeiten",
+                        "ihr": "arbeitet",
+                        "sie": "arbeiten"
+                      },
+                      "examples": [
+                        { "de": "Ich arbeite im Arbeitszimmer.", "en": "I work in the study room." }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": "lernen",
+                      "label": "lernen",
+                      "type": "entry",
+                      "ipa": "ˈlɛʁnən",
+                      "conjugation": {
+                        "ich": "lerne",
+                        "du": "lernst",
+                        "er": "lernt",
+                        "wir": "lernen",
+                        "ihr": "lernt",
+                        "sie": "lernen"
+                      },
+                      "examples": [
+                        { "de": "Wir lernen Deutsch.", "en": "We learn German." }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": "schreiben",
+                      "label": "schreiben",
+                      "type": "entry",
+                      "ipa": "ˈʃʁaɪ̯bən",
+                      "conjugation": {
+                        "ich": "schreibe",
+                        "du": "schreibst",
+                        "er": "schreibt",
+                        "wir": "schreiben",
+                        "ihr": "schreibt",
+                        "sie": "schreiben"
+                      },
+                      "examples": [
+                        { "de": "Ich schreibe eine E-Mail.", "en": "I write an email." }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "Adjective",
+                  "label": "Adjectives",
+                  "type": "pos",
+                  "children": [
+                    {
+                      "id": "hell",
+                      "label": "hell",
+                      "type": "entry",
+                      "ipa": "hɛl",
+                      "comparative": "heller",
+                      "superlative": "am hellsten",
+                      "examples": [
+                        { "de": "Das Zimmer ist hell.", "en": "The room is bright." }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": "ruhig",
+                      "label": "ruhig",
+                      "type": "entry",
+                      "ipa": "ˈʁuːɪç",
+                      "comparative": "ruhiger",
+                      "superlative": "am ruhigsten",
+                      "examples": [
+                        { "de": "Hier ist es ruhig.", "en": "It is quiet here." }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "Adverb",
+                  "label": "Adverbs",
+                  "type": "pos",
+                  "children": [
+                    {
+                      "id": "hier",
+                      "label": "hier",
+                      "type": "entry",
+                      "ipa": "hiːɐ̯",
+                      "examples": [
+                        { "de": "Ich bin hier.", "en": "I am here." }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": "oft",
+                      "label": "oft",
+                      "type": "entry",
+                      "ipa": "ɔft",
+                      "examples": [
+                        { "de": "Ich lerne oft.", "en": "I learn often." }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "Pronoun",
+                  "label": "Pronouns",
+                  "type": "pos",
+                  "children": [
+                    {
+                      "id": "ich",
+                      "label": "ich",
+                      "type": "entry",
+                      "ipa": "ɪç",
+                      "examples": [
+                        { "de": "Ich sitze am Schreibtisch.", "en": "I sit at the desk." }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": "du",
+                      "label": "du",
+                      "type": "entry",
+                      "ipa": "duː",
+                      "examples": [
+                        { "de": "Du bist pünktlich.", "en": "You are on time." }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "Preposition",
+                  "label": "Prepositions",
+                  "type": "pos",
+                  "children": [
+                    {
+                      "id": "in",
+                      "label": "in",
+                      "type": "entry",
+                      "examples": [
+                        { "de": "Ich bin im Arbeitszimmer.", "en": "I am in the study room." }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": "auf",
+                      "label": "auf",
+                      "type": "entry",
+                      "examples": [
+                        { "de": "Das Buch liegt auf dem Tisch.", "en": "The book is on the table." }
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "Number",
+                  "label": "Numbers",
+                  "type": "pos",
+                  "children": [
+                    {
+                      "id": "eins",
+                      "label": "eins",
+                      "type": "entry",
+                      "examples": [
+                        { "de": "Ich habe eins.", "en": "I have one." }
+                      ],
+                      "children": []
+                    },
+                    {
+                      "id": "zwei",
+                      "label": "zwei",
+                      "type": "entry",
+                      "examples": [
+                        { "de": "Wir sind zwei.", "en": "We are two." }
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Wohnzimmer",
+              "label": "Wohnzimmer",
+              "type": "subcategory",
+              "children": [
+                {
+                  "id": "Noun",
+                  "label": "Nouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "Sofa", "label": "Sofa", "type": "entry", "gender": "das", "plural": "Sofas", "ipa": "ˈzoːfa", "examples": [{ "de": "Das Sofa ist bequem.", "en": "The sofa is comfortable." }], "children": [] },
+                    { "id": "Fernseher", "label": "Fernseher", "type": "entry", "gender": "der", "plural": "Fernseher", "ipa": "ˈfɛʁnˌzeːɐ̯", "examples": [{ "de": "Der Fernseher ist aus.", "en": "The TV is off." }], "children": [] },
+                    { "id": "Teppich", "label": "Teppich", "type": "entry", "gender": "der", "plural": "Teppiche", "ipa": "ˈtɛpɪç", "examples": [{ "de": "Der Teppich ist neu.", "en": "The carpet is new." }], "children": [] },
+                    { "id": "Fenster", "label": "Fenster", "type": "entry", "gender": "das", "plural": "Fenster", "ipa": "ˈfɛnstɐ", "examples": [{ "de": "Das Fenster ist offen.", "en": "The window is open." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Verb",
+                  "label": "Verbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "sehen", "label": "sehen", "type": "entry", "ipa": "ˈzeːən", "conjugation": { "ich": "sehe", "du": "siehst", "er": "sieht", "wir": "sehen", "ihr": "seht", "sie": "sehen" }, "examples": [{ "de": "Ich sehe fern.", "en": "I watch TV." }], "children": [] },
+                    { "id": "sitzen", "label": "sitzen", "type": "entry", "ipa": "ˈzɪtsən", "conjugation": { "ich": "sitze", "du": "sitzt", "er": "sitzt", "wir": "sitzen", "ihr": "sitzt", "sie": "sitzen" }, "examples": [{ "de": "Wir sitzen auf dem Sofa.", "en": "We sit on the sofa." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adjective",
+                  "label": "Adjectives",
+                  "type": "pos",
+                  "children": [
+                    { "id": "bequem", "label": "bequem", "type": "entry", "ipa": "bəˈkveːm", "comparative": "bequemer", "superlative": "am bequemsten", "examples": [{ "de": "Das Sofa ist bequem.", "en": "The sofa is comfortable." }], "children": [] },
+                    { "id": "warm", "label": "warm", "type": "entry", "ipa": "vaʁm", "comparative": "wärmer", "superlative": "am wärmsten", "examples": [{ "de": "Das Zimmer ist warm.", "en": "The room is warm." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adverb",
+                  "label": "Adverbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "drinnen", "label": "drinnen", "type": "entry", "ipa": "ˈdʁɪnən", "examples": [{ "de": "Wir bleiben drinnen.", "en": "We stay inside." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Pronoun",
+                  "label": "Pronouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "wir", "label": "wir", "type": "entry", "ipa": "viːɐ̯", "examples": [{ "de": "Wir sind im Wohnzimmer.", "en": "We are in the living room." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Preposition",
+                  "label": "Prepositions",
+                  "type": "pos",
+                  "children": [
+                    { "id": "auf", "label": "auf", "type": "entry", "examples": [{ "de": "Wir sitzen auf dem Sofa.", "en": "We sit on the sofa." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Number",
+                  "label": "Numbers",
+                  "type": "pos",
+                  "children": [
+                    { "id": "drei", "label": "drei", "type": "entry", "examples": [{ "de": "Wir sind drei.", "en": "We are three." }], "children": [] }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Schlafzimmer",
+              "label": "Schlafzimmer",
+              "type": "subcategory",
+              "children": [
+                {
+                  "id": "Noun",
+                  "label": "Nouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "Bett", "label": "Bett", "type": "entry", "gender": "das", "plural": "Betten", "ipa": "bɛt", "examples": [{ "de": "Das Bett ist groß.", "en": "The bed is big." }], "children": [] },
+                    { "id": "Kissen", "label": "Kissen", "type": "entry", "gender": "das", "plural": "Kissen", "ipa": "ˈkɪsən", "examples": [{ "de": "Das Kissen ist weich.", "en": "The pillow is soft." }], "children": [] },
+                    { "id": "Decke", "label": "Decke", "type": "entry", "gender": "die", "plural": "Decken", "ipa": "ˈdɛkə", "examples": [{ "de": "Die Decke ist warm.", "en": "The blanket is warm." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Verb",
+                  "label": "Verbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "schlafen", "label": "schlafen", "type": "entry", "ipa": "ˈʃlaːfən", "conjugation": { "ich": "schlafe", "du": "schläfst", "er": "schläft", "wir": "schlafen", "ihr": "schlaft", "sie": "schlafen" }, "examples": [{ "de": "Ich schlafe im Schlafzimmer.", "en": "I sleep in the bedroom." }], "children": [] },
+                    { "id": "aufstehen", "label": "aufstehen", "type": "entry", "ipa": "ˈaʊ̯fˌʃteːən", "conjugation": { "ich": "stehe auf", "du": "stehst auf", "er": "steht auf", "wir": "stehen auf", "ihr": "steht auf", "sie": "stehen auf" }, "examples": [{ "de": "Ich stehe früh auf.", "en": "I get up early." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adjective",
+                  "label": "Adjectives",
+                  "type": "pos",
+                  "children": [
+                    { "id": "müde", "label": "müde", "type": "entry", "ipa": "ˈmyːdə", "comparative": "müder", "superlative": "am müdesten", "examples": [{ "de": "Ich bin müde.", "en": "I am tired." }], "children": [] },
+                    { "id": "weich", "label": "weich", "type": "entry", "ipa": "vaɪ̯ç", "comparative": "weicher", "superlative": "am weichsten", "examples": [{ "de": "Das Kissen ist weich.", "en": "The pillow is soft." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adverb",
+                  "label": "Adverbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "früh", "label": "früh", "type": "entry", "ipa": "fʁyː", "examples": [{ "de": "Ich stehe früh auf.", "en": "I get up early." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Pronoun",
+                  "label": "Pronouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "er", "label": "er", "type": "entry", "ipa": "eːɐ̯", "examples": [{ "de": "Er schläft.", "en": "He sleeps." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Preposition",
+                  "label": "Prepositions",
+                  "type": "pos",
+                  "children": [
+                    { "id": "im", "label": "im", "type": "entry", "examples": [{ "de": "Ich schlafe im Schlafzimmer.", "en": "I sleep in the bedroom." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Number",
+                  "label": "Numbers",
+                  "type": "pos",
+                  "children": [
+                    { "id": "vier", "label": "vier", "type": "entry", "examples": [{ "de": "Es ist vier Uhr.", "en": "It is four o'clock." }], "children": [] }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Badezimmer",
+              "label": "Badezimmer",
+              "type": "subcategory",
+              "children": [
+                {
+                  "id": "Noun",
+                  "label": "Nouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "Dusche", "label": "Dusche", "type": "entry", "gender": "die", "plural": "Duschen", "ipa": "ˈdʊʃə", "examples": [{ "de": "Die Dusche ist warm.", "en": "The shower is warm." }], "children": [] },
+                    { "id": "Seife", "label": "Seife", "type": "entry", "gender": "die", "plural": "Seifen", "ipa": "ˈzaɪ̯fə", "examples": [{ "de": "Die Seife ist im Bad.", "en": "The soap is in the bathroom." }], "children": [] },
+                    { "id": "Handtuch", "label": "Handtuch", "type": "entry", "gender": "das", "plural": "Handtücher", "ipa": "ˈhantˌtuːx", "examples": [{ "de": "Das Handtuch ist sauber.", "en": "The towel is clean." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Verb",
+                  "label": "Verbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "waschen", "label": "waschen", "type": "entry", "ipa": "ˈvaʃn̩", "conjugation": { "ich": "wasche", "du": "wäschst", "er": "wäscht", "wir": "waschen", "ihr": "wascht", "sie": "waschen" }, "examples": [{ "de": "Ich wasche meine Hände.", "en": "I wash my hands." }], "children": [] },
+                    { "id": "duschen", "label": "duschen", "type": "entry", "ipa": "ˈdʊʃn̩", "conjugation": { "ich": "dusche", "du": "duschst", "er": "duscht", "wir": "duschen", "ihr": "duscht", "sie": "duschen" }, "examples": [{ "de": "Ich dusche am Morgen.", "en": "I shower in the morning." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adjective",
+                  "label": "Adjectives",
+                  "type": "pos",
+                  "children": [
+                    { "id": "sauber", "label": "sauber", "type": "entry", "ipa": "ˈzaʊ̯bɐ", "comparative": "sauberer", "superlative": "am saubersten", "examples": [{ "de": "Das Handtuch ist sauber.", "en": "The towel is clean." }], "children": [] },
+                    { "id": "nass", "label": "nass", "type": "entry", "ipa": "nas", "comparative": "nasser", "superlative": "am nassesten", "examples": [{ "de": "Der Boden ist nass.", "en": "The floor is wet." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adverb",
+                  "label": "Adverbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "morgen", "label": "morgen", "type": "entry", "ipa": "ˈmɔʁɡn̩", "examples": [{ "de": "Ich dusche am Morgen.", "en": "I shower in the morning." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Pronoun",
+                  "label": "Pronouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "sie", "label": "sie", "type": "entry", "ipa": "ziː", "examples": [{ "de": "Sie wäscht sich.", "en": "She washes herself." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Preposition",
+                  "label": "Prepositions",
+                  "type": "pos",
+                  "children": [
+                    { "id": "am", "label": "am", "type": "entry", "examples": [{ "de": "Ich dusche am Morgen.", "en": "I shower in the morning." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Number",
+                  "label": "Numbers",
+                  "type": "pos",
+                  "children": [
+                    { "id": "fünf", "label": "fünf", "type": "entry", "examples": [{ "de": "Ich warte fünf Minuten.", "en": "I wait five minutes." }], "children": [] }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "kuche",
+              "label": "Küche",
+              "type": "subcategory",
+              "children": [
+                {
+                  "id": "Noun",
+                  "label": "Nouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "Tasse", "label": "Tasse", "type": "entry", "gender": "die", "plural": "Tassen", "ipa": "ˈtasə", "examples": [{ "de": "Die Tasse ist sauber.", "en": "The cup is clean." }], "children": [] },
+                    { "id": "Teller", "label": "Teller", "type": "entry", "gender": "der", "plural": "Teller", "ipa": "ˈtɛlɐ", "examples": [{ "de": "Der Teller ist leer.", "en": "The plate is empty." }], "children": [] },
+                    { "id": "Messer", "label": "Messer", "type": "entry", "gender": "das", "plural": "Messer", "ipa": "ˈmɛsɐ", "examples": [{ "de": "Das Messer ist scharf.", "en": "The knife is sharp." }], "children": [] },
+                    { "id": "Kühlschrank", "label": "Kühlschrank", "type": "entry", "gender": "der", "plural": "Kühlschränke", "ipa": "ˈkyːlˌʃʁaŋk", "examples": [{ "de": "Der Kühlschrank ist voll.", "en": "The fridge is full." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Verb",
+                  "label": "Verbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "kochen", "label": "kochen", "type": "entry", "ipa": "ˈkɔxn̩", "conjugation": { "ich": "koche", "du": "kochst", "er": "kocht", "wir": "kochen", "ihr": "kocht", "sie": "kochen" }, "examples": [{ "de": "Ich koche heute.", "en": "I cook today." }], "children": [] },
+                    { "id": "essen", "label": "essen", "type": "entry", "ipa": "ˈʔɛsn̩", "conjugation": { "ich": "esse", "du": "isst", "er": "isst", "wir": "essen", "ihr": "esst", "sie": "essen" }, "examples": [{ "de": "Wir essen in der Küche.", "en": "We eat in the kitchen." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adjective",
+                  "label": "Adjectives",
+                  "type": "pos",
+                  "children": [
+                    { "id": "scharf", "label": "scharf", "type": "entry", "ipa": "ʃaʁf", "comparative": "schärfer", "superlative": "am schärfsten", "examples": [{ "de": "Das Messer ist scharf.", "en": "The knife is sharp." }], "children": [] },
+                    { "id": "leer", "label": "leer", "type": "entry", "ipa": "leːɐ̯", "comparative": "leerer", "superlative": "am leersten", "examples": [{ "de": "Der Teller ist leer.", "en": "The plate is empty." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adverb",
+                  "label": "Adverbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "heute", "label": "heute", "type": "entry", "ipa": "ˈhɔʏtə", "examples": [{ "de": "Ich koche heute.", "en": "I cook today." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Pronoun",
+                  "label": "Pronouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "wir", "label": "wir", "type": "entry", "ipa": "viːɐ̯", "examples": [{ "de": "Wir essen jetzt.", "en": "We eat now." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Preposition",
+                  "label": "Prepositions",
+                  "type": "pos",
+                  "children": [
+                    { "id": "in", "label": "in", "type": "entry", "examples": [{ "de": "Wir essen in der Küche.", "en": "We eat in the kitchen." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Number",
+                  "label": "Numbers",
+                  "type": "pos",
+                  "children": [
+                    { "id": "sechs", "label": "sechs", "type": "entry", "examples": [{ "de": "Es ist sechs Uhr.", "en": "It is six o'clock." }], "children": [] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Food_and_Drinks",
+          "label": "Food & Drinks",
+          "type": "category",
+          "children": [
+            {
+              "id": "Fruits",
+              "label": "Fruits",
+              "type": "subcategory",
+              "children": [
+                {
+                  "id": "Noun",
+                  "label": "Nouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "Apfel", "label": "Apfel", "type": "entry", "gender": "der", "plural": "Äpfel", "ipa": "ˈapfl̩", "examples": [{ "de": "Ich esse einen Apfel.", "en": "I eat an apple." }], "children": [] },
+                    { "id": "Banane", "label": "Banane", "type": "entry", "gender": "die", "plural": "Bananen", "ipa": "baˈnaːnə", "examples": [{ "de": "Die Banane ist gelb.", "en": "The banana is yellow." }], "children": [] },
+                    { "id": "Orange", "label": "Orange", "type": "entry", "gender": "die", "plural": "Orangen", "ipa": "oˈʁaŋʒə", "examples": [{ "de": "Ich kaufe eine Orange.", "en": "I buy an orange." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Verb",
+                  "label": "Verbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "essen", "label": "essen", "type": "entry", "ipa": "ˈʔɛsn̩", "examples": [{ "de": "Ich esse Obst.", "en": "I eat fruit." }], "children": [] },
+                    { "id": "kaufen", "label": "kaufen", "type": "entry", "ipa": "ˈkaʊ̯fən", "examples": [{ "de": "Ich kaufe einen Apfel.", "en": "I buy an apple." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adjective",
+                  "label": "Adjectives",
+                  "type": "pos",
+                  "children": [
+                    { "id": "süß", "label": "süß", "type": "entry", "ipa": "zyːs", "comparative": "süßer", "superlative": "am süßesten", "examples": [{ "de": "Der Apfel ist süß.", "en": "The apple is sweet." }], "children": [] },
+                    { "id": "gelb", "label": "gelb", "type": "entry", "ipa": "ɡɛlp", "comparative": "gelber", "superlative": "am gelbsten", "examples": [{ "de": "Die Banane ist gelb.", "en": "The banana is yellow." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adverb",
+                  "label": "Adverbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "gern", "label": "gern", "type": "entry", "ipa": "ɡɛʁn", "examples": [{ "de": "Ich esse gern Obst.", "en": "I like eating fruit." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Pronoun",
+                  "label": "Pronouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "das", "label": "das", "type": "entry", "ipa": "das", "examples": [{ "de": "Das ist ein Apfel.", "en": "That is an apple." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Preposition",
+                  "label": "Prepositions",
+                  "type": "pos",
+                  "children": [
+                    { "id": "mit", "label": "mit", "type": "entry", "examples": [{ "de": "Ich esse den Apfel mit Joghurt.", "en": "I eat the apple with yogurt." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Number",
+                  "label": "Numbers",
+                  "type": "pos",
+                  "children": [
+                    { "id": "sieben", "label": "sieben", "type": "entry", "examples": [{ "de": "Ich kaufe sieben Äpfel.", "en": "I buy seven apples." }], "children": [] }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Drinks",
+              "label": "Drinks",
+              "type": "subcategory",
+              "children": [
+                {
+                  "id": "Noun",
+                  "label": "Nouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "Wasser", "label": "Wasser", "type": "entry", "gender": "das", "plural": "", "ipa": "ˈvasɐ", "examples": [{ "de": "Ich trinke Wasser.", "en": "I drink water." }], "children": [] },
+                    { "id": "Tee", "label": "Tee", "type": "entry", "gender": "der", "plural": "Tees", "ipa": "teː", "examples": [{ "de": "Der Tee ist heiß.", "en": "The tea is hot." }], "children": [] },
+                    { "id": "Saft", "label": "Saft", "type": "entry", "gender": "der", "plural": "Säfte", "ipa": "zaft", "examples": [{ "de": "Der Saft ist kalt.", "en": "The juice is cold." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Verb",
+                  "label": "Verbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "trinken", "label": "trinken", "type": "entry", "ipa": "ˈtʁɪŋkən", "examples": [{ "de": "Wir trinken Tee.", "en": "We drink tea." }], "children": [] },
+                    { "id": "möchten", "label": "möchten", "type": "entry", "ipa": "ˈmœçtən", "examples": [{ "de": "Ich möchte Wasser.", "en": "I would like water." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adjective",
+                  "label": "Adjectives",
+                  "type": "pos",
+                  "children": [
+                    { "id": "heiß", "label": "heiß", "type": "entry", "ipa": "haɪ̯s", "comparative": "heißer", "superlative": "am heißesten", "examples": [{ "de": "Der Tee ist heiß.", "en": "The tea is hot." }], "children": [] },
+                    { "id": "kalt", "label": "kalt", "type": "entry", "ipa": "kalt", "comparative": "kälter", "superlative": "am kältesten", "examples": [{ "de": "Der Saft ist kalt.", "en": "The juice is cold." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adverb",
+                  "label": "Adverbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "bitte", "label": "bitte", "type": "entry", "ipa": "ˈbɪtə", "examples": [{ "de": "Wasser, bitte.", "en": "Water, please." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Pronoun",
+                  "label": "Pronouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "sie_pl", "label": "sie", "type": "entry", "ipa": "ziː", "examples": [{ "de": "Sie trinken Tee.", "en": "They drink tea." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Preposition",
+                  "label": "Prepositions",
+                  "type": "pos",
+                  "children": [
+                    { "id": "ohne", "label": "ohne", "type": "entry", "examples": [{ "de": "Tee ohne Zucker.", "en": "Tea without sugar." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Number",
+                  "label": "Numbers",
+                  "type": "pos",
+                  "children": [
+                    { "id": "acht", "label": "acht", "type": "entry", "examples": [{ "de": "Ich trinke acht Gläser Wasser.", "en": "I drink eight glasses of water." }], "children": [] }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Meals",
+              "label": "Meals",
+              "type": "subcategory",
+              "children": [
+                {
+                  "id": "Noun",
+                  "label": "Nouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "Frühstück", "label": "Frühstück", "type": "entry", "gender": "das", "plural": "Frühstücke", "ipa": "ˈfʁyːʃtʏk", "examples": [{ "de": "Das Frühstück ist um acht Uhr.", "en": "Breakfast is at eight o'clock." }], "children": [] },
+                    { "id": "Mittagessen", "label": "Mittagessen", "type": "entry", "gender": "das", "plural": "Mittagessen", "ipa": "ˈmɪtaːkˌʔɛsn̩", "examples": [{ "de": "Wir essen Mittagessen.", "en": "We eat lunch." }], "children": [] },
+                    { "id": "Abendessen", "label": "Abendessen", "type": "entry", "gender": "das", "plural": "Abendessen", "ipa": "ˈaːbn̩tˌʔɛsn̩", "examples": [{ "de": "Das Abendessen ist fertig.", "en": "Dinner is ready." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Verb",
+                  "label": "Verbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "frühstücken", "label": "frühstücken", "type": "entry", "ipa": "ˈfʁyːʃtʏkən", "examples": [{ "de": "Wir frühstücken um sieben.", "en": "We have breakfast at seven." }], "children": [] },
+                    { "id": "beginnen", "label": "beginnen", "type": "entry", "ipa": "bəˈɡɪnən", "examples": [{ "de": "Der Kurs beginnt um neun.", "en": "The course starts at nine." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adjective",
+                  "label": "Adjectives",
+                  "type": "pos",
+                  "children": [
+                    { "id": "fertig", "label": "fertig", "type": "entry", "ipa": "ˈfɛʁtɪç", "comparative": "fertiger", "superlative": "am fertigsten", "examples": [{ "de": "Das Abendessen ist fertig.", "en": "Dinner is ready." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adverb",
+                  "label": "Adverbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "später", "label": "später", "type": "entry", "ipa": "ˈʃpɛːtɐ", "examples": [{ "de": "Wir essen später.", "en": "We eat later." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Pronoun",
+                  "label": "Pronouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "ihr", "label": "ihr", "type": "entry", "ipa": "iːɐ̯", "examples": [{ "de": "Ihr esst jetzt.", "en": "You (pl.) eat now." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Preposition",
+                  "label": "Prepositions",
+                  "type": "pos",
+                  "children": [
+                    { "id": "um", "label": "um", "type": "entry", "examples": [{ "de": "Wir frühstücken um sieben.", "en": "We have breakfast at seven." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Number",
+                  "label": "Numbers",
+                  "type": "pos",
+                  "children": [
+                    { "id": "neun", "label": "neun", "type": "entry", "examples": [{ "de": "Es ist neun Uhr.", "en": "It is nine o'clock." }], "children": [] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Travel",
+          "label": "Travel",
+          "type": "category",
+          "children": [
+            {
+              "id": "Transport",
+              "label": "Transport",
+              "type": "subcategory",
+              "children": [
+                {
+                  "id": "Noun",
+                  "label": "Nouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "Zug", "label": "Zug", "type": "entry", "gender": "der", "plural": "Züge", "ipa": "tsuːk", "examples": [{ "de": "Der Zug ist pünktlich.", "en": "The train is on time." }], "children": [] },
+                    { "id": "Bus", "label": "Bus", "type": "entry", "gender": "der", "plural": "Busse", "ipa": "bʊs", "examples": [{ "de": "Der Bus kommt gleich.", "en": "The bus arrives soon." }], "children": [] },
+                    { "id": "Ticket", "label": "Ticket", "type": "entry", "gender": "das", "plural": "Tickets", "ipa": "ˈtɪkɛt", "examples": [{ "de": "Ich habe ein Ticket.", "en": "I have a ticket." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Verb",
+                  "label": "Verbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "fahren", "label": "fahren", "type": "entry", "ipa": "ˈfaːʁən", "conjugation": { "ich": "fahre", "du": "fährst", "er": "fährt", "wir": "fahren", "ihr": "fahrt", "sie": "fahren" }, "examples": [{ "de": "Ich fahre nach Wien.", "en": "I go to Vienna." }], "children": [] },
+                    { "id": "warten", "label": "warten", "type": "entry", "ipa": "ˈvaʁtn̩", "conjugation": { "ich": "warte", "du": "wartest", "er": "wartet", "wir": "warten", "ihr": "wartet", "sie": "warten" }, "examples": [{ "de": "Wir warten am Bahnhof.", "en": "We wait at the station." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adjective",
+                  "label": "Adjectives",
+                  "type": "pos",
+                  "children": [
+                    { "id": "pünktlich", "label": "pünktlich", "type": "entry", "ipa": "ˈpʏŋktlɪç", "comparative": "pünktlicher", "superlative": "am pünktlichsten", "examples": [{ "de": "Der Zug ist pünktlich.", "en": "The train is on time." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adverb",
+                  "label": "Adverbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "gleich", "label": "gleich", "type": "entry", "ipa": "ɡlaɪ̯ç", "examples": [{ "de": "Der Bus kommt gleich.", "en": "The bus arrives soon." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Pronoun",
+                  "label": "Pronouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "mein", "label": "mein", "type": "entry", "ipa": "maɪ̯n", "examples": [{ "de": "Das ist mein Ticket.", "en": "That is my ticket." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Preposition",
+                  "label": "Prepositions",
+                  "type": "pos",
+                  "children": [
+                    { "id": "nach", "label": "nach", "type": "entry", "examples": [{ "de": "Ich fahre nach Wien.", "en": "I go to Vienna." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Number",
+                  "label": "Numbers",
+                  "type": "pos",
+                  "children": [
+                    { "id": "zehn", "label": "zehn", "type": "entry", "examples": [{ "de": "Ich warte zehn Minuten.", "en": "I wait ten minutes." }], "children": [] }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Directions",
+              "label": "Directions",
+              "type": "subcategory",
+              "children": [
+                {
+                  "id": "Noun",
+                  "label": "Nouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "Bahnhof", "label": "Bahnhof", "type": "entry", "gender": "der", "plural": "Bahnhöfe", "ipa": "ˈbaːnˌhoːf", "examples": [{ "de": "Der Bahnhof ist hier.", "en": "The station is here." }], "children": [] },
+                    { "id": "Straße", "label": "Straße", "type": "entry", "gender": "die", "plural": "Straßen", "ipa": "ˈʃtʁaːsə", "examples": [{ "de": "Die Straße ist lang.", "en": "The street is long." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Verb",
+                  "label": "Verbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "gehen", "label": "gehen", "type": "entry", "ipa": "ˈɡeːən", "conjugation": { "ich": "gehe", "du": "gehst", "er": "geht", "wir": "gehen", "ihr": "geht", "sie": "gehen" }, "examples": [{ "de": "Geh geradeaus.", "en": "Go straight ahead." }], "children": [] },
+                    { "id": "finden", "label": "finden", "type": "entry", "ipa": "ˈfɪndn̩", "examples": [{ "de": "Ich finde den Bahnhof.", "en": "I find the station." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adjective",
+                  "label": "Adjectives",
+                  "type": "pos",
+                  "children": [
+                    { "id": "lang", "label": "lang", "type": "entry", "ipa": "laŋ", "comparative": "länger", "superlative": "am längsten", "examples": [{ "de": "Die Straße ist lang.", "en": "The street is long." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adverb",
+                  "label": "Adverbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "geradeaus", "label": "geradeaus", "type": "entry", "ipa": "ɡəˈʁaːdəʔaʊ̯s", "examples": [{ "de": "Geh geradeaus.", "en": "Go straight ahead." }], "children": [] },
+                    { "id": "links", "label": "links", "type": "entry", "ipa": "lɪŋks", "examples": [{ "de": "Geh links.", "en": "Go left." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Pronoun",
+                  "label": "Pronouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "wo", "label": "wo", "type": "entry", "ipa": "voː", "examples": [{ "de": "Wo ist der Bahnhof?", "en": "Where is the station?" }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Preposition",
+                  "label": "Prepositions",
+                  "type": "pos",
+                  "children": [
+                    { "id": "zu", "label": "zu", "type": "entry", "examples": [{ "de": "Wie komme ich zum Bahnhof?", "en": "How do I get to the station?" }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Number",
+                  "label": "Numbers",
+                  "type": "pos",
+                  "children": [
+                    { "id": "elf", "label": "elf", "type": "entry", "examples": [{ "de": "Es ist elf Uhr.", "en": "It is eleven o'clock." }], "children": [] }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Hotel",
+              "label": "Hotel",
+              "type": "subcategory",
+              "children": [
+                {
+                  "id": "Noun",
+                  "label": "Nouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "Zimmer", "label": "Zimmer", "type": "entry", "gender": "das", "plural": "Zimmer", "ipa": "ˈtsɪmɐ", "examples": [{ "de": "Das Zimmer ist frei.", "en": "The room is available." }], "children": [] },
+                    { "id": "Schlüssel", "label": "Schlüssel", "type": "entry", "gender": "der", "plural": "Schlüssel", "ipa": "ˈʃlʏsl̩", "examples": [{ "de": "Hier ist der Schlüssel.", "en": "Here is the key." }], "children": [] },
+                    { "id": "Rezeption", "label": "Rezeption", "type": "entry", "gender": "die", "plural": "Rezeptionen", "ipa": "ʁeːt͡sɛpˈt͡si̯oːn", "examples": [{ "de": "Die Rezeption ist dort.", "en": "The reception is there." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Verb",
+                  "label": "Verbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "buchen", "label": "buchen", "type": "entry", "ipa": "ˈbuːxn̩", "examples": [{ "de": "Ich buche ein Zimmer.", "en": "I book a room." }], "children": [] },
+                    { "id": "bezahlen", "label": "bezahlen", "type": "entry", "ipa": "bəˈtsaːlən", "examples": [{ "de": "Ich bezahle mit Karte.", "en": "I pay by card." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adjective",
+                  "label": "Adjectives",
+                  "type": "pos",
+                  "children": [
+                    { "id": "frei", "label": "frei", "type": "entry", "ipa": "fʁaɪ̯", "comparative": "freier", "superlative": "am freiesten", "examples": [{ "de": "Das Zimmer ist frei.", "en": "The room is available." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adverb",
+                  "label": "Adverbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "dort", "label": "dort", "type": "entry", "ipa": "dɔʁt", "examples": [{ "de": "Die Rezeption ist dort.", "en": "The reception is there." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Pronoun",
+                  "label": "Pronouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "diese", "label": "diese", "type": "entry", "ipa": "ˈdiːzə", "examples": [{ "de": "Diese Karte ist gültig.", "en": "This card is valid." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Preposition",
+                  "label": "Prepositions",
+                  "type": "pos",
+                  "children": [
+                    { "id": "mit", "label": "mit", "type": "entry", "examples": [{ "de": "Ich bezahle mit Karte.", "en": "I pay by card." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Number",
+                  "label": "Numbers",
+                  "type": "pos",
+                  "children": [
+                    { "id": "zwölf", "label": "zwölf", "type": "entry", "examples": [{ "de": "Zimmer zwölf, bitte.", "en": "Room twelve, please." }], "children": [] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Time_and_Date",
+          "label": "Time & Date",
+          "type": "category",
+          "children": [
+            {
+              "id": "Weekdays",
+              "label": "Weekdays",
+              "type": "subcategory",
+              "children": [
+                {
+                  "id": "Noun",
+                  "label": "Nouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "Montag", "label": "Montag", "type": "entry", "gender": "der", "plural": "Montage", "ipa": "ˈmoːntaːk", "examples": [{ "de": "Am Montag habe ich Unterricht.", "en": "On Monday I have class." }], "children": [] },
+                    { "id": "Dienstag", "label": "Dienstag", "type": "entry", "gender": "der", "plural": "Dienstage", "ipa": "ˈdiːnstaːk", "examples": [{ "de": "Am Dienstag arbeite ich.", "en": "On Tuesday I work." }], "children": [] },
+                    { "id": "Uhr", "label": "Uhr", "type": "entry", "gender": "die", "plural": "Uhren", "ipa": "uːɐ̯", "examples": [{ "de": "Die Uhr ist neu.", "en": "The clock is new." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Verb",
+                  "label": "Verbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "haben", "label": "haben", "type": "entry", "ipa": "ˈhaːbn̩", "conjugation": { "ich": "habe", "du": "hast", "er": "hat", "wir": "haben", "ihr": "habt", "sie": "haben" }, "examples": [{ "de": "Ich habe am Montag Unterricht.", "en": "I have class on Monday." }], "children": [] },
+                    { "id": "kommen", "label": "kommen", "type": "entry", "ipa": "ˈkɔmən", "conjugation": { "ich": "komme", "du": "kommst", "er": "kommt", "wir": "kommen", "ihr": "kommt", "sie": "kommen" }, "examples": [{ "de": "Ich komme am Dienstag.", "en": "I come on Tuesday." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adjective",
+                  "label": "Adjectives",
+                  "type": "pos",
+                  "children": [
+                    { "id": "frei", "label": "frei", "type": "entry", "ipa": "fʁaɪ̯", "comparative": "freier", "superlative": "am freiesten", "examples": [{ "de": "Am Sonntag bin ich frei.", "en": "On Sunday I am free." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adverb",
+                  "label": "Adverbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "morgen_adv", "label": "morgen", "type": "entry", "ipa": "ˈmɔʁɡn̩", "examples": [{ "de": "Morgen ist Montag.", "en": "Tomorrow is Monday." }], "children": [] },
+                    { "id": "heute_adv", "label": "heute", "type": "entry", "ipa": "ˈhɔʏtə", "examples": [{ "de": "Heute ist Dienstag.", "en": "Today is Tuesday." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Pronoun",
+                  "label": "Pronouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "das_wd", "label": "das", "type": "entry", "ipa": "das", "examples": [{ "de": "Das ist heute.", "en": "That is today." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Preposition",
+                  "label": "Prepositions",
+                  "type": "pos",
+                  "children": [
+                    { "id": "am", "label": "am", "type": "entry", "examples": [{ "de": "Am Montag habe ich Unterricht.", "en": "On Monday I have class." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Number",
+                  "label": "Numbers",
+                  "type": "pos",
+                  "children": [
+                    { "id": "eins_wd", "label": "eins", "type": "entry", "examples": [{ "de": "Heute ist der erste Tag.", "en": "Today is the first day." }], "children": [] }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Numbers",
+              "label": "Numbers",
+              "type": "subcategory",
+              "children": [
+                {
+                  "id": "Noun",
+                  "label": "Nouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "Minute", "label": "Minute", "type": "entry", "gender": "die", "plural": "Minuten", "ipa": "mɪˈnuːtə", "examples": [{ "de": "Eine Minute, bitte.", "en": "One minute, please." }], "children": [] },
+                    { "id": "Stunde", "label": "Stunde", "type": "entry", "gender": "die", "plural": "Stunden", "ipa": "ˈʃtʊndə", "examples": [{ "de": "Eine Stunde ist lang.", "en": "One hour is long." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Verb",
+                  "label": "Verbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "zählen", "label": "zählen", "type": "entry", "ipa": "ˈt͡sɛːlən", "examples": [{ "de": "Ich zähle bis zehn.", "en": "I count to ten." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adjective",
+                  "label": "Adjectives",
+                  "type": "pos",
+                  "children": [
+                    { "id": "viel", "label": "viel", "type": "entry", "ipa": "fiːl", "comparative": "mehr", "superlative": "am meisten", "examples": [{ "de": "Das ist viel.", "en": "That is a lot." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Adverb",
+                  "label": "Adverbs",
+                  "type": "pos",
+                  "children": [
+                    { "id": "bis", "label": "bis", "type": "entry", "ipa": "bɪs", "examples": [{ "de": "Ich zähle bis zehn.", "en": "I count up to ten." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Pronoun",
+                  "label": "Pronouns",
+                  "type": "pos",
+                  "children": [
+                    { "id": "alles", "label": "alles", "type": "entry", "ipa": "ˈaləs", "examples": [{ "de": "Alles ist gut.", "en": "Everything is fine." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Preposition",
+                  "label": "Prepositions",
+                  "type": "pos",
+                  "children": [
+                    { "id": "für", "label": "für", "type": "entry", "examples": [{ "de": "Danke für die Hilfe.", "en": "Thanks for the help." }], "children": [] }
+                  ]
+                },
+                {
+                  "id": "Number",
+                  "label": "Numbers",
+                  "type": "pos",
+                  "children": [
+                    { "id": "eins", "label": "eins", "type": "entry", "examples": [{ "de": "Ich habe eins.", "en": "I have one." }], "children": [] },
+                    { "id": "zwei", "label": "zwei", "type": "entry", "examples": [{ "de": "Wir sind zwei.", "en": "We are two." }], "children": [] },
+                    { "id": "drei", "label": "drei", "type": "entry", "examples": [{ "de": "Es ist drei Uhr.", "en": "It is three o'clock." }], "children": [] },
+                    { "id": "vier", "label": "vier", "type": "entry", "examples": [{ "de": "Ich brauche vier Minuten.", "en": "I need four minutes." }], "children": [] },
+                    { "id": "fünf", "label": "fünf", "type": "entry", "examples": [{ "de": "Fünf, bitte.", "en": "Five, please." }], "children": [] },
+                    { "id": "sechs", "label": "sechs", "type": "entry", "examples": [{ "de": "Es ist sechs Uhr.", "en": "It is six o'clock." }], "children": [] },
+                    { "id": "sieben", "label": "sieben", "type": "entry", "examples": [{ "de": "Sieben Tage.", "en": "Seven days." }], "children": [] },
+                    { "id": "acht", "label": "acht", "type": "entry", "examples": [{ "de": "Acht Uhr.", "en": "Eight o'clock." }], "children": [] },
+                    { "id": "neun", "label": "neun", "type": "entry", "examples": [{ "de": "Neun Minuten.", "en": "Nine minutes." }], "children": [] },
+                    { "id": "zehn", "label": "zehn", "type": "entry", "examples": [{ "de": "Zehn, bitte.", "en": "Ten, please." }], "children": [] }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    { "id": "A2", "label": "A2", "type": "level", "children": [] },
+    { "id": "B1", "label": "B1", "type": "level", "children": [] },
+    { "id": "B2", "label": "B2", "type": "level", "children": [] }
+  ]
+}

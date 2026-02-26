@@ -1,0 +1,3289 @@
+@prefix ailand: <http://ailand.org/> .
+
+ailand:Abend ailand:hasCategory [ ailand:subTopic "Times_of_Day" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Abendessen ailand:hasCategory [ ailand:subTopic "Meals" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Abfahrt ailand:hasCategory [ ailand:subTopic "Travel_Events" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Abflug ailand:hasCategory [ ailand:subTopic "Travel_Events" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Absender ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Achtung ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Adresse ailand:hasCategory [ ailand:subTopic "Personal_Information" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Alter ailand:hasCategory [ ailand:subTopic "Personal_Information" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Anfang ailand:hasCategory [ ailand:subTopic "Time_Fractions" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Angebot ailand:hasCategory [ ailand:subTopic "Products" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Angst ailand:hasCategory [ ailand:subTopic "Emotions" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:Ankunft ailand:hasCategory [ ailand:subTopic "Travel_Events" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Anmeldung ailand:hasCategory [ ailand:subTopic "Documents" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Anrede ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Anruf ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Anrufbeantworter ailand:hasCategory [ ailand:subTopic "Devices" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Ansage ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Anschluss ailand:hasCategory [ ailand:subTopic "Travel_Events" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Antwort ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Anzeige ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Apfel ailand:hasCategory [ ailand:subTopic "Fruits_and_Vegetables" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Apotheke ailand:hasCategory [ ailand:subTopic "Medical_Places_and_People" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Appetit ailand:hasCategory [ ailand:subTopic "Physical_States" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:April ailand:hasCategory [ ailand:subTopic "Months" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Aquarium ailand:hasCategory [ ailand:subTopic "Animals" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Arbeit ailand:hasCategory [ ailand:subTopic "Work" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Arbeitsplatz ailand:hasCategory [ ailand:subTopic "Work" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Arm ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Arzt ailand:hasCategory [ ailand:subTopic "Professions" ;
+            ailand:topic "Family_and_People" ],
+        [ ailand:subTopic "Medical_Places_and_People" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Aufgabe ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Auge ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:August ailand:hasCategory [ ailand:subTopic "Months" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Ausflug ailand:hasCategory [ ailand:subTopic "Travel_Events" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Auskunft ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Ausl_nder ailand:hasCategory [ ailand:subTopic "Nationality_and_Countries" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Ausland ailand:hasCategory [ ailand:subTopic "Nationality_and_Countries" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Ausländer ailand:hasCategory [ ailand:subTopic "Nationality_and_Countries" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Ausländerin ailand:hasCategory [ ailand:subTopic "Nationality_and_Countries" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Aussage ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Aussehen ailand:hasCategory [ ailand:subTopic "Physical_States" ;
+            ailand:topic "Feelings_and_States" ],
+        [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:Ausweis ailand:hasCategory [ ailand:subTopic "Documents" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Auto ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Autobahn ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Automat ailand:hasCategory [ ailand:subTopic "Shops_and_Places" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:B_ckerei ailand:hasCategory [ ailand:subTopic "Shops_and_Places" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Baby ailand:hasCategory [ ailand:subTopic "Immediate_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Bahn ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Bahnhof ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Bahnsteig ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Banane ailand:hasCategory [ ailand:subTopic "Fruits_and_Vegetables" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Bank ailand:hasCategory [ ailand:subTopic "Shops_and_Places" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Bauch ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Baum ailand:hasCategory [ ailand:subTopic "Nature" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Beamte ailand:hasCategory [ ailand:subTopic "Professions" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Bein ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Beispiel ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Bekannte ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Beruf ailand:hasCategory [ ailand:subTopic "Work" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Bett ailand:hasCategory [ ailand:subTopic "Schlafzimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Bier ailand:hasCategory [ ailand:subTopic "Drinks" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Bild ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Bildschirm ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Devices" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Birne ailand:hasCategory [ ailand:subTopic "Fruits_and_Vegetables" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Bitte ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ],
+        [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:Bleistift ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Blick ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Blume ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Balkon" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Nature" ;
+            ailand:topic "Nature_and_Environment" ],
+        [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Boden ailand:hasCategory [ ailand:subTopic "Schlafzimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Badezimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Flur" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Keller" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Balkon" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Bogen ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Br_tchen ailand:hasCategory [ ailand:subTopic "Bakery_and_Grains" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Braten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:Brief ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Briefmarke ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Brot ailand:hasCategory [ ailand:subTopic "Bakery_and_Grains" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Bruder ailand:hasCategory [ ailand:subTopic "Immediate_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Brötchen ailand:hasCategory [ ailand:subTopic "Bakery_and_Grains" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Buch ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Buchstabe ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Bus ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Butter ailand:hasCategory [ ailand:subTopic "Dairy_and_Eggs" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Bäckerei ailand:hasCategory [ ailand:subTopic "Shops_and_Places" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:CD ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Caf_ ailand:hasCategory [ ailand:subTopic "Drinks" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Café ailand:hasCategory [ ailand:subTopic "Drinks" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Cent ailand:hasCategory [ ailand:subTopic "Money_and_Payments" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Chef ailand:hasCategory [ ailand:subTopic "Professions" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Chefin ailand:hasCategory [ ailand:subTopic "Professions" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Chips ailand:hasCategory [ ailand:subTopic "Snacks_and_Fast_Food" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Cola ailand:hasCategory [ ailand:subTopic "Drinks" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Computer ailand:hasCategory [ ailand:subTopic "Devices" ;
+            ailand:topic "Communication_and_Media" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Cousin ailand:hasCategory [ ailand:subTopic "Extended_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Cousine ailand:hasCategory [ ailand:subTopic "Extended_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Dame ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Dank ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ],
+        [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Datum ailand:hasCategory [ ailand:subTopic "Calendar_Terms" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Deutsch ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Deutsche ailand:hasCategory [ ailand:subTopic "Nationality_and_Countries" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Deutschland ailand:hasCategory [ ailand:subTopic "Nationality_and_Countries" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Dezember ailand:hasCategory [ ailand:subTopic "Months" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Dienstag ailand:hasCategory [ ailand:subTopic "Weekdays" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Disco ailand:hasCategory [ ailand:subTopic "Hobbies" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Doktor ailand:hasCategory [ ailand:subTopic "Medical_Places_and_People" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Donnerstag ailand:hasCategory [ ailand:subTopic "Weekdays" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Doppelzimmer ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Dorf ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Dreiviertelstunde ailand:hasCategory [ ailand:subTopic "Time_Fractions" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Drittel ailand:hasCategory [ ailand:subTopic "Time_Fractions" ;
+            ailand:topic "Time_and_Date" ],
+        [ ailand:subTopic "Time_Fractions" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Drucker ailand:hasCategory [ ailand:subTopic "Devices" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Dunkel ailand:hasCategory [ ailand:subTopic "Light_and_Dark" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:Durchsage ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Durst ailand:hasCategory [ ailand:subTopic "Physical_States" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:Dusche ailand:hasCategory [ ailand:subTopic "Badezimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:E-Mail ailand:hasCategory [ ailand:subTopic "Personal_Information" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:E_Mail ailand:hasCategory [ ailand:subTopic "Personal_Information" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Ehefrau ailand:hasCategory [ ailand:subTopic "Immediate_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Ehemann ailand:hasCategory [ ailand:subTopic "Immediate_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Ei ailand:hasCategory [ ailand:subTopic "Dairy_and_Eggs" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Einladung ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Eintritt ailand:hasCategory [ ailand:subTopic "Tickets_and_Documents" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Eintrittskarte ailand:hasCategory [ ailand:subTopic "Tickets_and_Documents" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Einzelzimmer ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Eltern ailand:hasCategory [ ailand:subTopic "Immediate_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Empf_nger ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Empfänger ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Ende ailand:hasCategory [ ailand:subTopic "Time_Fractions" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Englisch ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Entschuldigung ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Ergebnis ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Erwachsene ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Essen ailand:hasCategory [ ailand:subTopic "Daily_Actions" ;
+            ailand:topic "Daily_Routine" ],
+        [ ailand:subTopic "Meals" ;
+            ailand:topic "Food_and_Drinks" ],
+        [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:Euro ailand:hasCategory [ ailand:subTopic "Money_and_Payments" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Europ_er ailand:hasCategory [ ailand:subTopic "Nationality_and_Countries" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Europa ailand:hasCategory [ ailand:subTopic "Nationality_and_Countries" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Europäer ailand:hasCategory [ ailand:subTopic "Nationality_and_Countries" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Europäerin ailand:hasCategory [ ailand:subTopic "Nationality_and_Countries" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:F_hrung ailand:hasCategory [ ailand:subTopic "Travel_Events" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Fahrer ailand:hasCategory [ ailand:subTopic "Professions" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Fahrgast ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Fahrkarte ailand:hasCategory [ ailand:subTopic "Tickets_and_Documents" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Fahrrad ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Familie ailand:hasCategory [ ailand:subTopic "Immediate_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Familienname ailand:hasCategory [ ailand:subTopic "Personal_Information" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Familienstand ailand:hasCategory [ ailand:subTopic "Personal_Information" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Farbe ailand:hasCategory [ ailand:subTopic "General_Descriptions" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:Fax ailand:hasCategory [ ailand:subTopic "Devices" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Februar ailand:hasCategory [ ailand:subTopic "Months" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Fehler ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Feier ailand:hasCategory [ ailand:subTopic "Hobbies" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Feierabend ailand:hasCategory [ ailand:subTopic "Times_of_Day" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Feiertag ailand:hasCategory [ ailand:subTopic "Calendar_Terms" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Fenster ailand:hasCategory [ ailand:subTopic "Schlafzimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Badezimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Fernsehen ailand:hasCategory [ ailand:subTopic "Daily_Actions" ;
+            ailand:topic "Daily_Routine" ],
+        [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Fernseher ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ],
+        [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Feuer ailand:hasCategory [ ailand:subTopic "Nature" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Fieber ailand:hasCategory [ ailand:subTopic "Health_Problems" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Film ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Finnland ailand:hasCategory [ ailand:subTopic "Nationality_and_Countries" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Firma ailand:hasCategory [ ailand:subTopic "Work" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Fisch ailand:hasCategory [ ailand:subTopic "Meat_and_Fish" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Fitness ailand:hasCategory [ ailand:subTopic "Sports" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Flasche ailand:hasCategory [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Fleisch ailand:hasCategory [ ailand:subTopic "Meat_and_Fish" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Flughafen ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Flugzeug ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Formular ailand:hasCategory [ ailand:subTopic "Documents" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Foto ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Fr_hling ailand:hasCategory [ ailand:subTopic "Seasons" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Fr_hst_ck ailand:hasCategory [ ailand:subTopic "Meals" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Frage ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Franz_sisch ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Französisch ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Frau ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Freitag ailand:hasCategory [ ailand:subTopic "Weekdays" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Freizeit ailand:hasCategory [ ailand:subTopic "Hobbies" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Freund ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Freundin ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Frites ailand:hasCategory [ ailand:subTopic "Snacks_and_Fast_Food" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Frühling ailand:hasCategory [ ailand:subTopic "Seasons" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Frühstück ailand:hasCategory [ ailand:subTopic "Meals" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Fu_ ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Fu_ball ailand:hasCategory [ ailand:subTopic "Sports" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Fuß ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Fußball ailand:hasCategory [ ailand:subTopic "Sports" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Garten ailand:hasCategory [ ailand:subTopic "Hobbies" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Gast ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Geburtsjahr ailand:hasCategory [ ailand:subTopic "Personal_Information" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Geburtsort ailand:hasCategory [ ailand:subTopic "Personal_Information" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Geburtstag ailand:hasCategory [ ailand:subTopic "Calendar_Terms" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Geld ailand:hasCategory [ ailand:subTopic "Money_and_Payments" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Gem_se ailand:hasCategory [ ailand:subTopic "Fruits_and_Vegetables" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Gemüse ailand:hasCategory [ ailand:subTopic "Fruits_and_Vegetables" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Gep_ck ailand:hasCategory [ ailand:subTopic "Travel_Events" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Gepäck ailand:hasCategory [ ailand:subTopic "Travel_Events" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Gesch_ft ailand:hasCategory [ ailand:subTopic "Shops_and_Places" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Geschenk ailand:hasCategory [ ailand:subTopic "Products" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Geschlecht ailand:hasCategory [ ailand:subTopic "Personal_Information" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Geschwister ailand:hasCategory [ ailand:subTopic "Immediate_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Geschäft ailand:hasCategory [ ailand:subTopic "Shops_and_Places" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Gesicht ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Gespr_ch ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Gespräch ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Gesundheit ailand:hasCategory [ ailand:subTopic "Health_Problems" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Getr_nk ailand:hasCategory [ ailand:subTopic "Drinks" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Getränk ailand:hasCategory [ ailand:subTopic "Drinks" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Gewicht ailand:hasCategory [ ailand:subTopic "Measurements" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Gl_ck ailand:hasCategory [ ailand:subTopic "Emotions" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:Gl_ckwunsch ailand:hasCategory [ ailand:subTopic "Emotions" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:Glas ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Gleis ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Glück ailand:hasCategory [ ailand:subTopic "Emotions" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:Gr__e ailand:hasCategory [ ailand:subTopic "Measurements" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Grad ailand:hasCategory [ ailand:subTopic "Measurements" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Gramm ailand:hasCategory [ ailand:subTopic "Measurements" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Gro_eltern ailand:hasCategory [ ailand:subTopic "Extended_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Gro_mutter ailand:hasCategory [ ailand:subTopic "Extended_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Gro_vater ailand:hasCategory [ ailand:subTopic "Extended_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Großeltern ailand:hasCategory [ ailand:subTopic "Extended_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Großmutter ailand:hasCategory [ ailand:subTopic "Extended_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Großvater ailand:hasCategory [ ailand:subTopic "Extended_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Gru_ ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Gruppe ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Größe ailand:hasCategory [ ailand:subTopic "Measurements" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Gurke ailand:hasCategory [ ailand:subTopic "Fruits_and_Vegetables" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Gut ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ],
+        [ ailand:subTopic "Physical_States" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:H_hnchen ailand:hasCategory [ ailand:subTopic "Meat_and_Fish" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Haar ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Halbpension ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Haltestelle ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Hamburger ailand:hasCategory [ ailand:subTopic "Snacks_and_Fast_Food" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Hand ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Handtuch ailand:hasCategory [ ailand:subTopic "Hygiene" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Handy ailand:hasCategory [ ailand:subTopic "Devices" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Hausaufgabe ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Hausfrau ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Hausmann ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Haustier ailand:hasCategory [ ailand:subTopic "Animals" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Heft ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Heimat ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Hemd ailand:hasCategory [ ailand:subTopic "Clothing_Items" ;
+            ailand:topic "Clothes" ] .
+
+ailand:Herbst ailand:hasCategory [ ailand:subTopic "Seasons" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Herd ailand:hasCategory [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Herr ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Hilfe ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Himmel ailand:hasCategory [ ailand:subTopic "Nature" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Hobby ailand:hasCategory [ ailand:subTopic "Hobbies" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Hochzeit ailand:hasCategory [ ailand:subTopic "Hobbies" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Hose ailand:hasCategory [ ailand:subTopic "Clothing_Items" ;
+            ailand:topic "Clothes" ] .
+
+ailand:Hotel ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Hund ailand:hasCategory [ ailand:subTopic "Animals" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Hunger ailand:hasCategory [ ailand:subTopic "Physical_States" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:Husten ailand:hasCategory [ ailand:subTopic "Health_Problems" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Hähnchen ailand:hasCategory [ ailand:subTopic "Meat_and_Fish" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Ihnen ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ],
+        [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:Ihr ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ],
+        [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:Information ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Internet ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Jacke ailand:hasCategory [ ailand:subTopic "Clothing_Items" ;
+            ailand:topic "Clothes" ] .
+
+ailand:Jahr ailand:hasCategory [ ailand:subTopic "Time_Units" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Januar ailand:hasCategory [ ailand:subTopic "Months" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Job ailand:hasCategory [ ailand:subTopic "Work" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Joghurt ailand:hasCategory [ ailand:subTopic "Dairy_and_Eggs" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Jugendliche ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Juli ailand:hasCategory [ ailand:subTopic "Months" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Junge ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Juni ailand:hasCategory [ ailand:subTopic "Months" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:K_hlschrank ailand:hasCategory [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:K_rper ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:K_se ailand:hasCategory [ ailand:subTopic "Dairy_and_Eggs" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Kaffee ailand:hasCategory [ ailand:subTopic "Drinks" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Karotte ailand:hasCategory [ ailand:subTopic "Fruits_and_Vegetables" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Karte ailand:hasCategory [ ailand:subTopic "Money_and_Payments" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Kartoffel ailand:hasCategory [ ailand:subTopic "Fruits_and_Vegetables" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Karton ailand:hasCategory [ ailand:subTopic "Keller" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Kasse ailand:hasCategory [ ailand:subTopic "Money_and_Payments" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Katze ailand:hasCategory [ ailand:subTopic "Animals" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Kilo ailand:hasCategory [ ailand:subTopic "Measurements" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Kilogramm ailand:hasCategory [ ailand:subTopic "Measurements" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Kilometer ailand:hasCategory [ ailand:subTopic "Measurements" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Kind ailand:hasCategory [ ailand:subTopic "Immediate_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Kindergarten ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Kino ailand:hasCategory [ ailand:subTopic "Hobbies" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Kiosk ailand:hasCategory [ ailand:subTopic "Shops_and_Places" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Kiste ailand:hasCategory [ ailand:subTopic "Keller" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Klasse ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Klavier ailand:hasCategory [ ailand:subTopic "Hobbies" ;
+            ailand:topic "Leisure_and_Sports" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Kleid ailand:hasCategory [ ailand:subTopic "Clothing_Items" ;
+            ailand:topic "Clothes" ] .
+
+ailand:Kleidung ailand:hasCategory [ ailand:subTopic "Clothing_Items" ;
+            ailand:topic "Clothes" ] .
+
+ailand:Koffer ailand:hasCategory [ ailand:subTopic "Travel_Events" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Kollege ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Kollegin ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Konto ailand:hasCategory [ ailand:subTopic "Money_and_Payments" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Kopf ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Kopfh_rer ailand:hasCategory [ ailand:subTopic "Devices" ;
+            ailand:topic "Communication_and_Media" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Kopfhörer ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Devices" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Kosten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:Krankenhaus ailand:hasCategory [ ailand:subTopic "Medical_Places_and_People" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Kuchen ailand:hasCategory [ ailand:subTopic "Bakery_and_Grains" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Kugelschreiber ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Kuh ailand:hasCategory [ ailand:subTopic "Animals" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Kuli ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Kunde ailand:hasCategory [ ailand:subTopic "Shops_and_Places" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Kundin ailand:hasCategory [ ailand:subTopic "Shops_and_Places" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Kurs ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Käse ailand:hasCategory [ ailand:subTopic "Dairy_and_Eggs" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Körper ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Kühlschrank ailand:hasCategory [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:L_sung ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Ladekabel ailand:hasCategory [ ailand:subTopic "Devices" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Laden ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ],
+        [ ailand:subTopic "Shops_and_Places" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Lampe ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Badezimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Flur" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Schlafzimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Land ailand:hasCategory [ ailand:subTopic "Nationality_and_Countries" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Lastkraftwagen ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Lautsprecher ailand:hasCategory [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Devices" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Leben ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ],
+        [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Lebensmittel ailand:hasCategory [ ailand:subTopic "Ingredients_and_Spices" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Lehrer ailand:hasCategory [ ailand:subTopic "Professions" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Lehrerin ailand:hasCategory [ ailand:subTopic "Professions" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Leute ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Liebe ailand:hasCategory [ ailand:subTopic "Emotions" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:Lieblings_ ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Lied ailand:hasCategory [ ailand:subTopic "Hobbies" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Liter ailand:hasCategory [ ailand:subTopic "Measurements" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Lokal ailand:hasCategory [ ailand:subTopic "Drinks" ;
+            ailand:topic "Food_and_Drinks" ],
+        [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:Lösung ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:M_dchen ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:M_rz ailand:hasCategory [ ailand:subTopic "Months" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Mai ailand:hasCategory [ ailand:subTopic "Months" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Mann ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Mannschaft ailand:hasCategory [ ailand:subTopic "Sports" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Mantel ailand:hasCategory [ ailand:subTopic "Clothing_Items" ;
+            ailand:topic "Clothes" ] .
+
+ailand:Maus ailand:hasCategory [ ailand:subTopic "Devices" ;
+            ailand:topic "Communication_and_Media" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Medikament ailand:hasCategory [ ailand:subTopic "Health_Problems" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Meer ailand:hasCategory [ ailand:subTopic "Nature" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Mehl ailand:hasCategory [ ailand:subTopic "Bakery_and_Grains" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Mensch ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Meter ailand:hasCategory [ ailand:subTopic "Measurements" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Miete ailand:hasCategory [ ailand:subTopic "Money_and_Payments" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Milch ailand:hasCategory [ ailand:subTopic "Dairy_and_Eggs" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Milliarde ailand:hasCategory [ ailand:subTopic "Hundreds_and_Thousands" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Million ailand:hasCategory [ ailand:subTopic "Hundreds_and_Thousands" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Minute ailand:hasCategory [ ailand:subTopic "Time_Units" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Mittag ailand:hasCategory [ ailand:subTopic "Times_of_Day" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Mittagessen ailand:hasCategory [ ailand:subTopic "Meals" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Mitte ailand:hasCategory [ ailand:subTopic "Time_Fractions" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Mittwoch ailand:hasCategory [ ailand:subTopic "Weekdays" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Moment ailand:hasCategory [ ailand:subTopic "Time_Units" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Monat ailand:hasCategory [ ailand:subTopic "Time_Units" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Mond ailand:hasCategory [ ailand:subTopic "Nature" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Montag ailand:hasCategory [ ailand:subTopic "Weekdays" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Morgen ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ],
+        [ ailand:subTopic "Times_of_Day" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Mund ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Musik ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Mutter ailand:hasCategory [ ailand:subTopic "Immediate_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Mädchen ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:März ailand:hasCategory [ ailand:subTopic "Months" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Nachbar ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Nachbarin ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Nachmittag ailand:hasCategory [ ailand:subTopic "Times_of_Day" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Nachricht ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Nacht ailand:hasCategory [ ailand:subTopic "Times_of_Day" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Name ailand:hasCategory [ ailand:subTopic "Personal_Information" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Nase ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Nationalität ailand:hasCategory [ ailand:subTopic "Nationality_and_Countries" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Natur ailand:hasCategory [ ailand:subTopic "Nature" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Nein ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ],
+        [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:Norden ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Notfall ailand:hasCategory [ ailand:subTopic "Health_Problems" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Notiz ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:November ailand:hasCategory [ ailand:subTopic "Months" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Nudeln ailand:hasCategory [ ailand:subTopic "Bakery_and_Grains" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Null ailand:hasCategory [ ailand:subTopic "Basic_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Nummer ailand:hasCategory [ ailand:subTopic "Basic_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Obst ailand:hasCategory [ ailand:subTopic "Fruits_and_Vegetables" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Ohr ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Oktober ailand:hasCategory [ ailand:subTopic "Months" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Oma ailand:hasCategory [ ailand:subTopic "Extended_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Onkel ailand:hasCategory [ ailand:subTopic "Extended_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Opa ailand:hasCategory [ ailand:subTopic "Extended_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Orange ailand:hasCategory [ ailand:subTopic "Basic_Colors" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:Ordnung ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Ort ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Osten ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Papier ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Papiere ailand:hasCategory [ ailand:subTopic "Documents" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Parkplatz ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Partner ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Partnerin ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Party ailand:hasCategory [ ailand:subTopic "Hobbies" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Pass ailand:hasCategory [ ailand:subTopic "Documents" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Pause ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Person ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Personalausweis ailand:hasCategory [ ailand:subTopic "Documents" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Pfeffer ailand:hasCategory [ ailand:subTopic "Ingredients_and_Spices" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Pferd ailand:hasCategory [ ailand:subTopic "Animals" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Pflanze ailand:hasCategory [ ailand:subTopic "Balkon" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Nature" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Pfund ailand:hasCategory [ ailand:subTopic "Measurements" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Pizza ailand:hasCategory [ ailand:subTopic "Snacks_and_Fast_Food" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Plan ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Platz ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Plus ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:Polizei ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Pommes ailand:hasCategory [ ailand:subTopic "Snacks_and_Fast_Food" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Post ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Poster ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ],
+        [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Postleitzahl ailand:hasCategory [ ailand:subTopic "Personal_Information" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Pr_fung ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Praktikum ailand:hasCategory [ ailand:subTopic "Work" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Praxis ailand:hasCategory [ ailand:subTopic "Medical_Places_and_People" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Preis ailand:hasCategory [ ailand:subTopic "Money_and_Payments" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Problem ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Prospekt ailand:hasCategory [ ailand:subTopic "Products" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Prozent ailand:hasCategory [ ailand:subTopic "Measurements" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Prüfung ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Pullover ailand:hasCategory [ ailand:subTopic "Clothing_Items" ;
+            ailand:topic "Clothes" ] .
+
+ailand:Quadratmeter ailand:hasCategory [ ailand:subTopic "Measurements" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:R_cken ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:R_ckfahrt ailand:hasCategory [ ailand:subTopic "Travel_Events" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Rad_fahren ailand:hasCategory [ ailand:subTopic "Sports" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Radio ailand:hasCategory [ ailand:subTopic "Devices" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Raum ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Rechnung ailand:hasCategory [ ailand:subTopic "Products" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Regal ailand:hasCategory [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Keller" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Regen ailand:hasCategory [ ailand:subTopic "Weather" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Reis ailand:hasCategory [ ailand:subTopic "Bakery_and_Grains" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Reise ailand:hasCategory [ ailand:subTopic "Travel_Events" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Reiseb_ro ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Reisebüro ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Reisef_hrer ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Reiseführer ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Reisepass ailand:hasCategory [ ailand:subTopic "Documents" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Reparatur ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Restaurant ailand:hasCategory [ ailand:subTopic "Shops_and_Places" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Rezeption ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Rindfleisch ailand:hasCategory [ ailand:subTopic "Meat_and_Fish" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Rock ailand:hasCategory [ ailand:subTopic "Clothing_Items" ;
+            ailand:topic "Clothes" ] .
+
+ailand:Rucksack ailand:hasCategory [ ailand:subTopic "Travel_Events" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Rücken ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Rückfahrt ailand:hasCategory [ ailand:subTopic "Travel_Events" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:S-Bahn ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:SMS ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:S_Bahn ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:S_den ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Saft ailand:hasCategory [ ailand:subTopic "Drinks" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Salat ailand:hasCategory [ ailand:subTopic "Fruits_and_Vegetables" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Salz ailand:hasCategory [ ailand:subTopic "Ingredients_and_Spices" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Samstag ailand:hasCategory [ ailand:subTopic "Weekdays" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Satz ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Sch_ler ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Sch_lerin ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Schiff ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Schinken ailand:hasCategory [ ailand:subTopic "Meat_and_Fish" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Schl_ssel ailand:hasCategory [ ailand:subTopic "Flur" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Schluss ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Schmerz ailand:hasCategory [ ailand:subTopic "Health_Problems" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Schnee ailand:hasCategory [ ailand:subTopic "Weather" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Schrank ailand:hasCategory [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Schlafzimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Schreiben ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:Schreibtisch ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Schuh ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Schuhe ailand:hasCategory [ ailand:subTopic "Clothing_Items" ;
+            ailand:topic "Clothes" ] .
+
+ailand:Schule ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Schwester ailand:hasCategory [ ailand:subTopic "Immediate_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Schwimmbad ailand:hasCategory [ ailand:subTopic "Sports" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Schwimmen ailand:hasCategory [ ailand:subTopic "Sports" ;
+            ailand:topic "Leisure_and_Sports" ],
+        [ ailand:subTopic "Sports" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Schüler ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Schülerin ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:See ailand:hasCategory [ ailand:subTopic "Nature" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Sehensw_rdigkeit ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Seife ailand:hasCategory [ ailand:subTopic "Hygiene" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Sekunde ailand:hasCategory [ ailand:subTopic "Time_Units" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:September ailand:hasCategory [ ailand:subTopic "Months" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Sie ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ],
+        [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:Sofa ailand:hasCategory [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Sohn ailand:hasCategory [ ailand:subTopic "Immediate_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Sommer ailand:hasCategory [ ailand:subTopic "Seasons" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Sonnabend ailand:hasCategory [ ailand:subTopic "Weekdays" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Sonne ailand:hasCategory [ ailand:subTopic "Weather" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Sonntag ailand:hasCategory [ ailand:subTopic "Weekdays" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Spanisch ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Speisekarte ailand:hasCategory [ ailand:subTopic "Meals" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Spiegel ailand:hasCategory [ ailand:subTopic "Badezimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Schlafzimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Flur" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Sport ailand:hasCategory [ ailand:subTopic "Sports" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Sprache ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Spüle ailand:hasCategory [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Stadt ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Stelle ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Stern ailand:hasCategory [ ailand:subTopic "Nature" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Stift ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Stra_e ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Stra_enbahn ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Straßenbahn ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Student ailand:hasCategory [ ailand:subTopic "Professions" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Studentin ailand:hasCategory [ ailand:subTopic "Professions" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Studium ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Stuhl ailand:hasCategory [ ailand:subTopic "Balkon" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Stunde ailand:hasCategory [ ailand:subTopic "Time_Units" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Supermarkt ailand:hasCategory [ ailand:subTopic "Shops_and_Places" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:T-Shirt ailand:hasCategory [ ailand:subTopic "Clothing_Items" ;
+            ailand:topic "Clothes" ] .
+
+ailand:T_Shirt ailand:hasCategory [ ailand:subTopic "Clothing_Items" ;
+            ailand:topic "Clothes" ] .
+
+ailand:T_r ailand:hasCategory [ ailand:subTopic "Flur" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Tag ailand:hasCategory [ ailand:subTopic "Time_Units" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Tante ailand:hasCategory [ ailand:subTopic "Extended_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Tasche ailand:hasCategory [ ailand:subTopic "Clothing_Items" ;
+            ailand:topic "Clothes" ] .
+
+ailand:Tasse ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Tastatur ailand:hasCategory [ ailand:subTopic "Devices" ;
+            ailand:topic "Communication_and_Media" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Taxi ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Tee ailand:hasCategory [ ailand:subTopic "Drinks" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Teil ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Telefon ailand:hasCategory [ ailand:subTopic "Devices" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Telefonnummer ailand:hasCategory [ ailand:subTopic "Personal_Information" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Teppich ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Schlafzimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Termin ailand:hasCategory [ ailand:subTopic "Calendar_Terms" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Test ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Text ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Thema ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Ticket ailand:hasCategory [ ailand:subTopic "Tickets_and_Documents" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Tier ailand:hasCategory [ ailand:subTopic "Animals" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Tisch ailand:hasCategory [ ailand:subTopic "Balkon" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Tochter ailand:hasCategory [ ailand:subTopic "Immediate_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Toilette ailand:hasCategory [ ailand:subTopic "Badezimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Tomate ailand:hasCategory [ ailand:subTopic "Fruits_and_Vegetables" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Treffen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:Tür ailand:hasCategory [ ailand:subTopic "Flur" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:U-Bahn ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:U_Bahn ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Uhr ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Unfall ailand:hasCategory [ ailand:subTopic "Travel_Events" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Unterricht ailand:hasCategory [ ailand:subTopic "School" ;
+            ailand:topic "School_and_Work" ] .
+
+ailand:Unterschrift ailand:hasCategory [ ailand:subTopic "Documents" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Urlaub ailand:hasCategory [ ailand:subTopic "Travel_Events" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Vater ailand:hasCategory [ ailand:subTopic "Immediate_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Verein ailand:hasCategory [ ailand:subTopic "Hobbies" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:Verk_ufer ailand:hasCategory [ ailand:subTopic "Professions" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Verk_uferin ailand:hasCategory [ ailand:subTopic "Professions" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Verkäufer ailand:hasCategory [ ailand:subTopic "Professions" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Verkäuferin ailand:hasCategory [ ailand:subTopic "Professions" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Vermieter ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Vermieterin ailand:hasCategory [ ailand:subTopic "General_People" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Verwandte ailand:hasCategory [ ailand:subTopic "Immediate_Family" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Video ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Viertel ailand:hasCategory [ ailand:subTopic "Time_Fractions" ;
+            ailand:topic "Time_and_Date" ],
+        [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:Viertelstunde ailand:hasCategory [ ailand:subTopic "Time_Fractions" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Vogel ailand:hasCategory [ ailand:subTopic "Animals" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Vorhang ailand:hasCategory [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Schlafzimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Vormittag ailand:hasCategory [ ailand:subTopic "Times_of_Day" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Vorname ailand:hasCategory [ ailand:subTopic "Personal_Information" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Vorsicht ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ] .
+
+ailand:Vorwahl ailand:hasCategory [ ailand:subTopic "Personal_Information" ;
+            ailand:topic "Personal_Data_and_Identity" ] .
+
+ailand:Wand ailand:hasCategory [ ailand:subTopic "Keller" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Flur" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Badezimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Wohnzimmer" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Küche" ;
+            ailand:topic "Home_and_Living" ],
+        [ ailand:subTopic "Schlafzimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Waschbecken ailand:hasCategory [ ailand:subTopic "Badezimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Wasser ailand:hasCategory [ ailand:subTopic "Drinks" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Webseite ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Wecker ailand:hasCategory [ ailand:subTopic "Devices" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Wein ailand:hasCategory [ ailand:subTopic "Drinks" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Welt ailand:hasCategory [ ailand:subTopic "Nature" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Westen ailand:hasCategory [ ailand:subTopic "Travel_Places" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Wetter ailand:hasCategory [ ailand:subTopic "Weather" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Wiederh_ren ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Wiedersehen ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ],
+        [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:Wind ailand:hasCategory [ ailand:subTopic "Weather" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Winter ailand:hasCategory [ ailand:subTopic "Seasons" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Wissen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:Woche ailand:hasCategory [ ailand:subTopic "Time_Units" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Wochenende ailand:hasCategory [ ailand:subTopic "Calendar_Terms" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Wochentag ailand:hasCategory [ ailand:subTopic "Calendar_Terms" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Wolke ailand:hasCategory [ ailand:subTopic "Weather" ;
+            ailand:topic "Nature_and_Environment" ] .
+
+ailand:Wort ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Wurst ailand:hasCategory [ ailand:subTopic "Meat_and_Fish" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Zahn ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Zahnb_rste ailand:hasCategory [ ailand:subTopic "Hygiene" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Zahnbürste ailand:hasCategory [ ailand:subTopic "Hygiene" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Zahnpasta ailand:hasCategory [ ailand:subTopic "Hygiene" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Zeit ailand:hasCategory [ ailand:subTopic "Time_Units" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:Zeitung ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:Zentimeter ailand:hasCategory [ ailand:subTopic "Measurements" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Zigarette ailand:hasCategory [ ailand:subTopic "Health_Problems" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:Zoll ailand:hasCategory [ ailand:subTopic "Money_and_Payments" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:Zucker ailand:hasCategory [ ailand:subTopic "Ingredients_and_Spices" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:Zug ailand:hasCategory [ ailand:subTopic "Transport_Means" ;
+            ailand:topic "Travel_and_Transport" ] .
+
+ailand:Zwiebel ailand:hasCategory [ ailand:subTopic "Fruits_and_Vegetables" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:_ber ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:_bernachten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:_berweisen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:_ein_hundert ailand:hasCategory [ ailand:subTopic "Hundreds_and_Thousands" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:_ein_tausend ailand:hasCategory [ ailand:subTopic "Hundreds_and_Thousands" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:_ffnen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:_l ailand:hasCategory [ ailand:subTopic "Ingredients_and_Spices" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:_rztin ailand:hasCategory [ ailand:subTopic "Professions" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:ab ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:aber ailand:hasCategory [ ailand:subTopic "Conjunctions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:abfahren ailand:hasCategory [ ailand:subTopic "Separable_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:abfliegen ailand:hasCategory [ ailand:subTopic "Separable_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:abgeben ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:abholen ailand:hasCategory [ ailand:subTopic "Separable_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:acht ailand:hasCategory [ ailand:subTopic "Basic_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:achtzehn ailand:hasCategory [ ailand:subTopic "Teens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:achtzig ailand:hasCategory [ ailand:subTopic "Tens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:all ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:alle ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:allein ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:alles ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:also ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:am ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:an ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:anbieten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:andere ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:anderer ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:anderes ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:anfangen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:anklicken ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:ankommen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:ankreuzen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:anmachen ailand:hasCategory [ ailand:subTopic "Separable_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:anmelden ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:anrufen ailand:hasCategory [ ailand:subTopic "Separable_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:antworten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:anziehen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:arbeiten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ],
+        [ ailand:subTopic "Daily_Actions" ;
+            ailand:topic "Daily_Routine" ] .
+
+ailand:auch ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:auf ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:aufh_ren ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:aufr_umen ailand:hasCategory [ ailand:subTopic "Daily_Actions" ;
+            ailand:topic "Daily_Routine" ] .
+
+ailand:aufräumen ailand:hasCategory [ ailand:subTopic "Daily_Actions" ;
+            ailand:topic "Daily_Routine" ] .
+
+ailand:aufstehen ailand:hasCategory [ ailand:subTopic "Separable_Verbs" ;
+            ailand:topic "Common_Verbs" ],
+        [ ailand:subTopic "Daily_Actions" ;
+            ailand:topic "Daily_Routine" ] .
+
+ailand:aufwachen ailand:hasCategory [ ailand:subTopic "Separable_Verbs" ;
+            ailand:topic "Common_Verbs" ],
+        [ ailand:subTopic "Daily_Actions" ;
+            ailand:topic "Daily_Routine" ] .
+
+ailand:aus ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:ausf_llen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:ausfüllen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:ausmachen ailand:hasCategory [ ailand:subTopic "Separable_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:aussehen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ],
+        [ ailand:subTopic "Physical_States" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:aussteigen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:ausziehen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:backen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:baden ailand:hasCategory [ ailand:subTopic "Hygiene" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:bald ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:bedeuten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:beginnen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:bei ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:beide ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:bekommen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:benutzen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:besichtigen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:bestellen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:besuchen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:bezahlen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:bis ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:bisschen ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:bitte ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ],
+        [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:bitten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:blau ailand:hasCategory [ ailand:subTopic "Basic_Colors" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:bleiben ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:braten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:brauchen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:braun ailand:hasCategory [ ailand:subTopic "Basic_Colors" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:bringen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:buchstabieren ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:bunt ailand:hasCategory [ ailand:subTopic "General_Descriptions" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:ca_ ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:circa ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:d_rfen ailand:hasCategory [ ailand:subTopic "Modal_Verbs" ;
+            ailand:topic "Common_Verbs" ],
+        [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:da ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:daneben ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:dank ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ],
+        [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:danke ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:danken ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:dann ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:das ailand:hasCategory [ ailand:subTopic "Articles" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:dauern ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:dein ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:denn ailand:hasCategory [ ailand:subTopic "Conjunctions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:der ailand:hasCategory [ ailand:subTopic "Articles" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:dich ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:die ailand:hasCategory [ ailand:subTopic "Articles" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:dir ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:dort ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:dorthin ailand:hasCategory [ ailand:subTopic "Question_Words" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:dr_cken ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:drau_en ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:drei ailand:hasCategory [ ailand:subTopic "Basic_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:drei_ig ailand:hasCategory [ ailand:subTopic "Tens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:dreihundert ailand:hasCategory [ ailand:subTopic "Hundreds_and_Thousands" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:dreizehn ailand:hasCategory [ ailand:subTopic "Teens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:dreißig ailand:hasCategory [ ailand:subTopic "Tens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:dritte ailand:hasCategory [ ailand:subTopic "Ordinal_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:drittel ailand:hasCategory [ ailand:subTopic "Time_Fractions" ;
+            ailand:topic "Time_and_Date" ],
+        [ ailand:subTopic "Time_Fractions" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:drucken ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:drücken ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:du ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:dunkel ailand:hasCategory [ ailand:subTopic "Light_and_Dark" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:durch ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:duschen ailand:hasCategory [ ailand:subTopic "Hygiene" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:eineinhalb ailand:hasCategory [ ailand:subTopic "Fractions" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:einfach ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:einkaufen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:einladen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:einmal ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:eins ailand:hasCategory [ ailand:subTopic "Basic_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:einsteigen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:einundzwanzig ailand:hasCategory [ ailand:subTopic "Tens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:elf ailand:hasCategory [ ailand:subTopic "Teens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:empfehlen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:enden ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:englisch ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:entschuldigen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:er ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:erkl_ren ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:erklären ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:erlauben ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:erste ailand:hasCategory [ ailand:subTopic "Ordinal_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:erz_hlen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:erzählen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:es ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:essen ailand:hasCategory [ ailand:subTopic "Daily_Actions" ;
+            ailand:topic "Daily_Routine" ],
+        [ ailand:subTopic "Meals" ;
+            ailand:topic "Food_and_Drinks" ],
+        [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:euer ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:f_nf ailand:hasCategory [ ailand:subTopic "Basic_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:f_nfhundert ailand:hasCategory [ ailand:subTopic "Hundreds_and_Thousands" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:f_nfundzwanzig ailand:hasCategory [ ailand:subTopic "Tens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:f_nfzehn ailand:hasCategory [ ailand:subTopic "Teens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:f_nfzig ailand:hasCategory [ ailand:subTopic "Tens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:f_r ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:f_rben ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:fahren ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:fehlen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:feiern ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:fernsehen ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ],
+        [ ailand:subTopic "Daily_Actions" ;
+            ailand:topic "Daily_Routine" ] .
+
+ailand:finden ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:fit ailand:hasCategory [ ailand:subTopic "Physical_States" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:fliegen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:fr_her ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:fr_hst_cken ailand:hasCategory [ ailand:subTopic "Daily_Actions" ;
+            ailand:topic "Daily_Routine" ] .
+
+ailand:fragen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:franz_sisch ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:freuen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:früher ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:frühstücken ailand:hasCategory [ ailand:subTopic "Daily_Actions" ;
+            ailand:topic "Daily_Routine" ] .
+
+ailand:färben ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:fünf ailand:hasCategory [ ailand:subTopic "Basic_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:fünfhundert ailand:hasCategory [ ailand:subTopic "Hundreds_and_Thousands" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:fünfundzwanzig ailand:hasCategory [ ailand:subTopic "Tens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:fünfzehn ailand:hasCategory [ ailand:subTopic "Teens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:fünfzig ailand:hasCategory [ ailand:subTopic "Tens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:geben ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:gefallen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:gegen ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:geh_ren ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:gehen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:gelb ailand:hasCategory [ ailand:subTopic "Basic_Colors" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:gerade ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:geradeaus ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:gern ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:gerne ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:gestern ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:gesund ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:gewinnen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:glauben ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:gleich ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:glücklich ailand:hasCategory [ ailand:subTopic "Emotions" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:gratulieren ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:grau ailand:hasCategory [ ailand:subTopic "Basic_Colors" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:grillen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:grün ailand:hasCategory [ ailand:subTopic "Basic_Colors" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:gut ailand:hasCategory [ ailand:subTopic "Physical_States" ;
+            ailand:topic "Feelings_and_States" ],
+        [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:h_ren ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:haben ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:hallo ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:halten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:hei_en ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:heiraten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:helfen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:hell ailand:hasCategory [ ailand:subTopic "Light_and_Dark" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:heute ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:hier ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:hinten ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:hoch ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:holen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:husten ailand:hasCategory [ ailand:subTopic "Health_Problems" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:hören ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:ich ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:ihm ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:ihn ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:ihnen ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ],
+        [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:ihr ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ],
+        [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:im ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:immer ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:in ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:ja ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:jede ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:jeder ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:jedes ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:jetzt ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:k_mmern ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:k_nnen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ],
+        [ ailand:subTopic "Modal_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:kaufen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:kein ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:kennen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:kennenlernen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:klar ailand:hasCategory [ ailand:subTopic "General_Descriptions" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:klicken ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:kochen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:kommen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:kosten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:krank ailand:hasCategory [ ailand:subTopic "Health_Problems" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:kriegen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:kurz ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:lachen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:laden ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ],
+        [ ailand:subTopic "Shops_and_Places" ;
+            ailand:topic "Shopping_and_Money" ] .
+
+ailand:lange ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:laufen ailand:hasCategory [ ailand:subTopic "Sports" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:laut ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:leben ailand:hasCategory [ ailand:subTopic "General" ;
+            ailand:topic "Other_Important_Words" ],
+        [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:legen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:leider ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:lernen ailand:hasCategory [ ailand:subTopic "Daily_Actions" ;
+            ailand:topic "Daily_Routine" ],
+        [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:lesen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:lieben ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:lieber ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:liegen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:lila ailand:hasCategory [ ailand:subTopic "Basic_Colors" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:links ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:lokal ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ],
+        [ ailand:subTopic "Drinks" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:m_gen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:m_ssen ailand:hasCategory [ ailand:subTopic "Modal_Verbs" ;
+            ailand:topic "Common_Verbs" ],
+        [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:machen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:malen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:man ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:mehr ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:mein ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:meinen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:meist ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:mich ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:mieten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:minus ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:mir ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:mit ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:mitbringen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:mitkommen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:mitmachen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:mitnehmen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:morgen ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ],
+        [ ailand:subTopic "Times_of_Day" ;
+            ailand:topic "Time_and_Date" ] .
+
+ailand:müde ailand:hasCategory [ ailand:subTopic "Physical_States" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:n_ ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:nach ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:nee ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:nehmen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:nein ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ],
+        [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:nervös ailand:hasCategory [ ailand:subTopic "Emotions" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:neun ailand:hasCategory [ ailand:subTopic "Basic_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:neunzehn ailand:hasCategory [ ailand:subTopic "Teens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:neunzig ailand:hasCategory [ ailand:subTopic "Tens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:nicht ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:nichts ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:nie ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:nix ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:noch ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:null ailand:hasCategory [ ailand:subTopic "Basic_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:nur ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:oben ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:oder ailand:hasCategory [ ailand:subTopic "Conjunctions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:oft ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:ohne ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:orange ailand:hasCategory [ ailand:subTopic "Basic_Colors" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:plus ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:putzen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:r_cken ailand:hasCategory [ ailand:subTopic "Body_Parts" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:rauchen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:rechts ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:regnen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:reisen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:reparieren ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:retten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:riechen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:rosa ailand:hasCategory [ ailand:subTopic "Basic_Colors" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:rot ailand:hasCategory [ ailand:subTopic "Basic_Colors" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:rufen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:sagen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:scheinen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:schicken ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:schlafen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ],
+        [ ailand:subTopic "Daily_Actions" ;
+            ailand:topic "Daily_Routine" ] .
+
+ailand:schlie_en ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:schließen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:schmecken ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:schneien ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:schnell ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:schon ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:schreiben ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:schwach ailand:hasCategory [ ailand:subTopic "Physical_States" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:schwarz ailand:hasCategory [ ailand:subTopic "Basic_Colors" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:schwimmen ailand:hasCategory [ ailand:subTopic "Sports" ;
+            ailand:topic "Leisure_and_Sports" ],
+        [ ailand:subTopic "Sports" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:sechs ailand:hasCategory [ ailand:subTopic "Basic_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:sechshundert ailand:hasCategory [ ailand:subTopic "Hundreds_and_Thousands" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:sechsundzwanzig ailand:hasCategory [ ailand:subTopic "Tens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:sechzehn ailand:hasCategory [ ailand:subTopic "Teens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:sechzig ailand:hasCategory [ ailand:subTopic "Tens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:sehen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:sehr ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:sein ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ],
+        [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:seit ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:sich ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:sich_freuen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:sie ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ],
+        [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:sieben ailand:hasCategory [ ailand:subTopic "Basic_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:siebzehn ailand:hasCategory [ ailand:subTopic "Teens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:siebzig ailand:hasCategory [ ailand:subTopic "Tens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:sitzen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:so ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:sofort ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:sollen ailand:hasCategory [ ailand:subTopic "Modal_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:spanisch ailand:hasCategory [ ailand:subTopic "Media" ;
+            ailand:topic "Communication_and_Media" ] .
+
+ailand:spielen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:sprechen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:stark ailand:hasCategory [ ailand:subTopic "Physical_States" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:stehen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:stellen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:sterben ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:studieren ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:suchen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:tanzen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:telefonieren ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:trainieren ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ],
+        [ ailand:subTopic "Sports" ;
+            ailand:topic "Leisure_and_Sports" ] .
+
+ailand:traurig ailand:hasCategory [ ailand:subTopic "Emotions" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:treffen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:trinken ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ],
+        [ ailand:subTopic "Daily_Actions" ;
+            ailand:topic "Daily_Routine" ] .
+
+ailand:tsch_ss ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:tun ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:um ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:umziehen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:und ailand:hasCategory [ ailand:subTopic "Conjunctions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:uns ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:unser ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:unten ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:unter ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:unterschreiben ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:verdienen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:verkaufen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:vermieten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:verstehen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:viel ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:vielleicht ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:vier ailand:hasCategory [ ailand:subTopic "Basic_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:vierte ailand:hasCategory [ ailand:subTopic "Ordinal_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:viertel ailand:hasCategory [ ailand:subTopic "Time_Fractions" ;
+            ailand:topic "Time_and_Date" ],
+        [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:vierzehn ailand:hasCategory [ ailand:subTopic "Teens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:vierzig ailand:hasCategory [ ailand:subTopic "Tens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:vom ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:von ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:vor ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:vorstellen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:wandern ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:wann ailand:hasCategory [ ailand:subTopic "Question_Words" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:warten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:warum ailand:hasCategory [ ailand:subTopic "Question_Words" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:was ailand:hasCategory [ ailand:subTopic "Question_Words" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:waschen ailand:hasCategory [ ailand:subTopic "Hygiene" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:wehtun ailand:hasCategory [ ailand:subTopic "Health_Problems" ;
+            ailand:topic "Health_and_Body" ] .
+
+ailand:weiter ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:weiß ailand:hasCategory [ ailand:subTopic "Basic_Colors" ;
+            ailand:topic "Colors_and_Descriptions" ] .
+
+ailand:welche ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:welcher ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:welches ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:wenig ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:wer ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:werden ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:wie ailand:hasCategory [ ailand:subTopic "Question_Words" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:wieder ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:wiederholen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:wiedersehen ailand:hasCategory [ ailand:subTopic "Communication_Forms" ;
+            ailand:topic "Communication_and_Media" ],
+        [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:wir ailand:hasCategory [ ailand:subTopic "Pronouns" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:wissen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:wo ailand:hasCategory [ ailand:subTopic "Question_Words" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:woher ailand:hasCategory [ ailand:subTopic "Question_Words" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:wohin ailand:hasCategory [ ailand:subTopic "Question_Words" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:wohnen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:wollen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ],
+        [ ailand:subTopic "Modal_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:wütend ailand:hasCategory [ ailand:subTopic "Emotions" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:zahlen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:zehn ailand:hasCategory [ ailand:subTopic "Basic_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:zeigen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:zirka ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:zu ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:zufrieden ailand:hasCategory [ ailand:subTopic "Emotions" ;
+            ailand:topic "Feelings_and_States" ] .
+
+ailand:zum ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:zur_ck ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:zur_ckkommen ailand:hasCategory [ ailand:subTopic "Separable_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:zurzeit ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:zurück ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:zusammen ailand:hasCategory [ ailand:subTopic "Adverbs" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:zw_lf ailand:hasCategory [ ailand:subTopic "Teens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:zwanzig ailand:hasCategory [ ailand:subTopic "Tens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:zwei ailand:hasCategory [ ailand:subTopic "Basic_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:zweihundert ailand:hasCategory [ ailand:subTopic "Hundreds_and_Thousands" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:zweite ailand:hasCategory [ ailand:subTopic "Ordinal_Numbers" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:zwischen ailand:hasCategory [ ailand:subTopic "Prepositions" ;
+            ailand:topic "Grammar_and_Function_Words" ] .
+
+ailand:zwölf ailand:hasCategory [ ailand:subTopic "Teens" ;
+            ailand:topic "Numbers_and_Quantity" ] .
+
+ailand:Ärztin ailand:hasCategory [ ailand:subTopic "Professions" ;
+            ailand:topic "Family_and_People" ] .
+
+ailand:Öl ailand:hasCategory [ ailand:subTopic "Ingredients_and_Spices" ;
+            ailand:topic "Food_and_Drinks" ] .
+
+ailand:öffnen ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+ailand:übernachten ailand:hasCategory [ ailand:subTopic "Basic_Verbs" ;
+            ailand:topic "Common_Verbs" ] .
+
+# Arbeitszimmer Adjectives
+ailand:ordentlich ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:gemütlich ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:modern ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:praktisch ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:hell ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+# Arbeitszimmer Adverbs
+ailand:sorgfältig ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:konzentriert ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:ruhig ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:fleißig ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:täglich ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+# Arbeitszimmer Nouns (Artikel/Items)
+ailand:Regal ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Kalender ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Notizblock ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Ordner ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:Drucker ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+# Arbeitszimmer Prepositions
+ailand:auf ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:unter ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:neben ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:hinter ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+
+ailand:vor ailand:hasCategory [ ailand:subTopic "Arbeitszimmer" ;
+            ailand:topic "Home_and_Living" ] .
+

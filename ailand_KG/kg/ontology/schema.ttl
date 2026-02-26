@@ -1,0 +1,141 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf4j: <http://rdf4j.org/schema/rdf4j#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+
+rdf:XMLLiteral a rdfs:Class, rdfs:Datatype;
+  rdfs:subClassOf rdfs:Literal, rdf:XMLLiteral .
+
+xsd:nonNegativeInteger a rdfs:Class, rdfs:Datatype;
+  rdfs:subClassOf xsd:nonNegativeInteger .
+
+xsd:string a rdfs:Class, rdfs:Datatype;
+  rdfs:subClassOf xsd:string .
+
+rdf:type a rdf:Property;
+  rdfs:subPropertyOf rdf:type;
+  <http://proton.semanticweb.org/protonsys#transitiveOver> rdfs:subClassOf .
+
+rdfs:subPropertyOf a rdf:Property, owl:TransitiveProperty;
+  rdfs:subPropertyOf rdfs:subPropertyOf;
+  <http://proton.semanticweb.org/protonsys#transitiveOver> rdfs:subPropertyOf .
+
+rdfs:subClassOf a rdf:Property, owl:TransitiveProperty;
+  rdfs:subPropertyOf rdfs:subClassOf;
+  rdfs:domain rdfs:Class;
+  rdfs:range rdfs:Class;
+  <http://proton.semanticweb.org/protonsys#transitiveOver> rdfs:subClassOf .
+
+rdfs:domain a rdf:Property;
+  rdfs:subPropertyOf rdfs:domain;
+  rdfs:range rdfs:Class .
+
+rdfs:range a rdf:Property;
+  rdfs:subPropertyOf rdfs:range;
+  rdfs:range rdfs:Class .
+
+<http://proton.semanticweb.org/protonsys#transitiveOver> a rdf:Property;
+  rdfs:subPropertyOf <http://proton.semanticweb.org/protonsys#transitiveOver> .
+
+owl:inverseOf a rdf:Property, owl:SymmetricProperty;
+  rdfs:subPropertyOf owl:inverseOf;
+  owl:inverseOf owl:inverseOf .
+
+rdf:subject a rdf:Property;
+  rdfs:domain rdf:Statement .
+
+rdf:predicate a rdf:Property;
+  rdfs:domain rdf:Statement .
+
+rdf:object a rdf:Property;
+  rdfs:domain rdf:Statement .
+
+rdf:first a rdf:Property;
+  rdfs:domain rdf:List .
+
+rdf:rest a rdf:Property;
+  rdfs:domain rdf:List;
+  rdfs:range rdf:List .
+
+rdf:value a rdf:Property .
+
+rdf:_1 a rdf:Property, rdfs:ContainerMembershipProperty .
+
+<http://www.w3.org/ns/lemon/ontolex#canonicalForm> a rdf:Property;
+  rdfs:subPropertyOf <http://www.w3.org/ns/lemon/ontolex#canonicalForm> .
+
+<http://www.w3.org/ns/lemon/ontolex#writtenRep> a rdf:Property;
+  rdfs:subPropertyOf <http://www.w3.org/ns/lemon/ontolex#writtenRep> .
+
+<http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech> a rdf:Property;
+  rdfs:subPropertyOf <http://www.lexinfo.net/ontology/2.0/lexinfo#partOfSpeech> .
+
+<http://www.w3.org/ns/lemon/ontolex#sense> a rdf:Property;
+  rdfs:subPropertyOf <http://www.w3.org/ns/lemon/ontolex#sense> .
+
+<http://www.w3.org/ns/lemon/ontolex#gloss> a rdf:Property;
+  rdfs:subPropertyOf <http://www.w3.org/ns/lemon/ontolex#gloss> .
+
+<http://ailand.org/level> a rdf:Property;
+  rdfs:subPropertyOf <http://ailand.org/level> .
+
+<http://ailand.org/frequency> a rdf:Property;
+  rdfs:subPropertyOf <http://ailand.org/frequency> .
+
+<http://www.lexinfo.net/ontology/2.0/lexinfo#gender> a rdf:Property;
+  rdfs:subPropertyOf <http://www.lexinfo.net/ontology/2.0/lexinfo#gender> .
+
+<http://ailand.org/reflexive> a rdf:Property;
+  rdfs:subPropertyOf <http://ailand.org/reflexive> .
+
+<http://www.w3.org/ns/lemon/ontolex#otherForm> a rdf:Property;
+  rdfs:subPropertyOf <http://www.w3.org/ns/lemon/ontolex#otherForm> .
+
+<http://ailand.org/example> a rdf:Property;
+  rdfs:subPropertyOf <http://ailand.org/example> .
+
+<http://ailand.org/meaning> a rdf:Property;
+  rdfs:subPropertyOf <http://ailand.org/meaning> .
+
+<http://www.w3.org/ns/lemon/ontolex#phoneticRep> a rdf:Property;
+  rdfs:subPropertyOf <http://www.w3.org/ns/lemon/ontolex#phoneticRep> .
+
+<http://ailand.org/boundForm> a rdf:Property;
+  rdfs:subPropertyOf <http://ailand.org/boundForm> .
+
+<http://purl.org/olia/olia.owl#hasCase> a rdf:Property;
+  rdfs:subPropertyOf <http://purl.org/olia/olia.owl#hasCase> .
+
+<http://purl.org/olia/olia.owl#hasNumber> a rdf:Property;
+  rdfs:subPropertyOf <http://purl.org/olia/olia.owl#hasNumber> .
+
+<http://purl.org/olia/olia.owl#hasMood> a rdf:Property;
+  rdfs:subPropertyOf <http://purl.org/olia/olia.owl#hasMood> .
+
+<http://purl.org/olia/olia.owl#hasPerson> a rdf:Property;
+  rdfs:subPropertyOf <http://purl.org/olia/olia.owl#hasPerson> .
+
+<http://purl.org/olia/olia.owl#hasTense> a rdf:Property;
+  rdfs:subPropertyOf <http://purl.org/olia/olia.owl#hasTense> .
+
+<http://purl.org/olia/olia.owl#hasVoice> a rdf:Property;
+  rdfs:subPropertyOf <http://purl.org/olia/olia.owl#hasVoice> .
+
+<http://ailand.org/inRoom> a rdf:Property;
+  rdfs:subPropertyOf <http://ailand.org/inRoom> .
+
+owl:equivalentProperty a owl:SymmetricProperty, owl:TransitiveProperty;
+  rdfs:subPropertyOf rdfs:subPropertyOf;
+  <http://proton.semanticweb.org/protonsys#transitiveOver> owl:equivalentProperty;
+  owl:inverseOf owl:equivalentProperty .
+
+owl:equivalentClass a owl:SymmetricProperty, owl:TransitiveProperty;
+  rdfs:subPropertyOf rdfs:subClassOf;
+  <http://proton.semanticweb.org/protonsys#transitiveOver> owl:equivalentClass;
+  owl:inverseOf owl:equivalentClass .
+
+owl:differentFrom a owl:SymmetricProperty;
+  owl:inverseOf owl:differentFrom .

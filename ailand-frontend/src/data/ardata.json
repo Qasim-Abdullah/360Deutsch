@@ -1,0 +1,95 @@
+{
+  "id": "Arbeitszimmer",
+  "label": "Arbeitszimmer",
+  "type": "subcategory",
+  "anchor": true,
+  "children": [
+    {
+      "id": "Nouns",
+      "label": "Nouns",
+      "type": "pos",
+      "children": [
+        {
+          "id": "Schreibtisch",
+          "label": "Schreibtisch",
+          "type": "entry",
+          "gender": "der",
+          "plural": "Schreibtische",
+          "ipa": "ˈʃʁaɪ̯pˌtɪʃ",
+          "examples": [
+            {
+              "de": "Der Schreibtisch steht im Arbeitszimmer.",
+              "en": "The desk is in the study room."
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "Stuhl",
+          "label": "Stuhl",
+          "type": "entry",
+          "gender": "der",
+          "plural": "Stühle",
+          "ipa": "ʃtuːl",
+          "examples": [
+            {
+              "de": "Der Stuhl steht neben dem Schreibtisch.",
+              "en": "The chair is next to the desk."
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "Verbs",
+      "label": "Verbs",
+      "type": "pos",
+      "children": [
+        {
+          "id": "arbeiten",
+          "label": "arbeiten",
+          "type": "entry",
+          "ipa": "ˈaʁbaɪ̯tən",
+          "conjugation": {
+            "ich": "arbeite",
+            "du": "arbeitest",
+            "er_sie_es": "arbeitet",
+            "wir": "arbeiten",
+            "ihr": "arbeitet",
+            "sie_Sie": "arbeiten"
+          },
+          "examples": [
+            {
+              "de": "Ich arbeite im Arbeitszimmer.",
+              "en": "I work in the study room."
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "Adjectives",
+      "label": "Adjectives",
+      "type": "pos",
+      "children": [
+        {
+          "id": "groß",
+          "label": "groß",
+          "type": "entry",
+          "ipa": "ɡʁoːs",
+          "comparative": "größer",
+          "superlative": "am größten",
+          "examples": [
+            {
+              "de": "Das Arbeitszimmer ist groß.",
+              "en": "The study room is big."
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}

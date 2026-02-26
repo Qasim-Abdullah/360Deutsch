@@ -1,0 +1,33 @@
+
+.room-embedded {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 200px; /* small phones */
+  border-radius: 0.75rem; /* matches rounded-xl on small screens */
+  overflow: hidden;
+  background: transparent;
+
+  @media (min-width: 640px) {
+    min-height: 320px;
+    border-radius: 1rem;
+  }
+
+  @media (min-width: 1024px) {
+    min-height: 400px;
+  }
+
+  #experience {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    #experience-canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+}
