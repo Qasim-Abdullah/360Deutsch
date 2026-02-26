@@ -84,7 +84,7 @@ export async function updateProfileAction(
       return { ok: false, error: "Not authenticated" };
     }
 
-    const res = await fetch(`${BASE_URL}/auth/me`, {
+    const res = await fetch(`${BASE_URL}/userinfo`, {
       method: "PUT",
       headers: {
         Authorization: `Bearer ${token}`,
@@ -146,7 +146,7 @@ export async function uploadAvatarAction(
     const body = new FormData();
     body.append("avatar", file);
 
-    const res = await fetch(`${BASE_URL}/auth/me/avatar`, {
+    const res = await fetch(`${BASE_URL}/userinfo/avatar`, {
       method: "POST",
       headers: {
         Authorization: `Bearer ${token}`,
