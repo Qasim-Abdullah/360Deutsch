@@ -38,7 +38,7 @@ export async function forgetPassword(email: string) {
   const body = await res.json();
 
   if (!res.ok) {
-    throw new Error(body?.message || "Something went wrong");
+    throw new Error(body?.detail || body?.message || "Something went wrong");
   }
 
   return body;
@@ -57,9 +57,8 @@ export async function resetPassword(
   const body = await res.json();
 
   if (!res.ok) {
-    throw new Error(body?.message || "Reset failed");
+    throw new Error(body?.detail || body?.message || "Reset failed");
   }
 
   return body;
 }
-

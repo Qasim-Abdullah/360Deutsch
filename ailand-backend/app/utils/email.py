@@ -30,7 +30,7 @@ def send_password_reset_email(email_to: str, token: str) -> bool:
         html_part = MIMEText(html_content, "html")
         message.attach(html_part)
         
-        with smtplib.SMTP(settings.SMTP_HOST, settings.SMTP_PORT) as server:
+        with smtplib.SMTP(settings.SMTP_HOST, settings.SMTP_PORT, timeout=15) as server:
             server.starttls()
             server.login(settings.SMTP_USER, settings.SMTP_PASSWORD)
             server.sendmail(settings.EMAILS_FROM_EMAIL, email_to, message.as_string())

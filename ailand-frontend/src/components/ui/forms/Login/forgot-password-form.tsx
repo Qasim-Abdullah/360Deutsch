@@ -45,17 +45,17 @@ export function ForgotPasswordForm({
   async function onSubmit(data: FormValues) {
     setIsLoading(true);
 
-    toast.promise(forgetPassword(data.email), {
-      loading: "Sending email...",
-      success: () => {
-        setSubmittedEmail(data.email);
-        setShowAlert(true);
-        form.reset();
-        return `Email sent to ${data.email}`;
-      },
-      error: (e) => e?.message ?? "Something went wrong",
-      finally: () => setIsLoading(false),
-    });
+    try {
+      await forgetPassword(data.email);
+      setSubmittedEmail(data.email);
+      setShowAlert(true);
+      form.reset();
+      toast.success(`Email sent to ${data.email}`);
+    } catch (e) {
+      toast.error(e instanceof Error ? e.message : "Something went wrong");
+    } finally {
+      setIsLoading(false);
+    }
   }
 
   return (

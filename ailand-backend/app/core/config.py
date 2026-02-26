@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     EMAILS_FROM_EMAIL: str = "qasimrana799@gmail.com"
     EMAILS_FROM_NAME: str = "AILand"
 
-    FRONTEND_URL: str = "http://localhost:3000"
+    FRONTEND_URL: str = "https://ailand-frontend.vercel.app"
     
     SPARQL_ENDPOINT: str = "http://localhost:7200/repositories/360Deutsch"
     
