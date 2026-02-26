@@ -22,6 +22,7 @@ import { logoutAction } from "@/app/actions/auth";
 import { SidebarTrigger, useSidebar } from "@/components/ui/sidebar/sidebar";
 import { useAuth } from "@/context/useAuth";
 import { PROGRESS_STORAGE_KEY } from "@/lib/useProgress";
+import { resolveAvatarUrl } from "@/lib/utils";
 
 type AppSidebarProps = React.ComponentProps<typeof Sidebar> & {
   progress?: { roomsCompleted: number; totalRooms: number } | null;
@@ -91,7 +92,7 @@ export function AppSidebar({
   const displayLevel = sideBarData.user.level;
 
   const avatarSrc =
-    user?.avatar_url ??
+    resolveAvatarUrl(user?.avatar_url) ??
     `https://api.dicebear.com/7.x/avataaars/svg?seed=${encodeURIComponent(
       displayName,
     )}`;

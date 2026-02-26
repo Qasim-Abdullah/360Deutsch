@@ -9,6 +9,7 @@ import { Label } from "@/components/ui/label";
 import { Upload, X } from "lucide-react";
 import type { User } from "@/types/user";
 import { useAuth } from "@/context/useAuth";
+import { resolveAvatarUrl } from "@/lib/utils";
 
 type Props = {
   user: User;
@@ -31,7 +32,7 @@ export function ProfileEditForm({ user, onSuccess, onCancel }: Props) {
 
   const fileInputRef = useRef<HTMLInputElement>(null);
 
-  const currentAvatarUrl = avatarPreview ?? user.avatar_url ?? null;
+  const currentAvatarUrl = avatarPreview ?? resolveAvatarUrl(user.avatar_url) ?? null;
 
   function handleAvatarChange(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];

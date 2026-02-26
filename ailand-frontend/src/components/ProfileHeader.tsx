@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Pencil } from "lucide-react";
 import { User } from "@/types/user";
+import { resolveAvatarUrl } from "@/lib/utils";
 
 type Props = {
   user: User;
@@ -23,9 +24,9 @@ export default function ProfileHeader({ user, onEditClick }: Props) {
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
 
         <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-full bg-muted shadow-inner sm:h-28 sm:w-28">
-          {user.avatar_url ? (
+          {resolveAvatarUrl(user.avatar_url) ? (
             <img
-              src={user.avatar_url}
+              src={resolveAvatarUrl(user.avatar_url)!}
               alt=""
               className="h-full w-full object-cover"
             />
