@@ -8,6 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { Upload, X } from "lucide-react";
 import type { User } from "@/types/user";
+import { useAuth } from "@/context/useAuth";
 
 type Props = {
   user: User;
@@ -19,6 +20,7 @@ const ACCEPT_IMAGES = "image/jpeg,image/png,image/webp,image/gif";
 const MAX_SIZE_MB = 5;
 
 export function ProfileEditForm({ user, onSuccess, onCancel }: Props) {
+  const { setUser } = useAuth();
   const [displayName, setDisplayName] = useState(user.username ?? "");
   const [username, setUsername] = useState(user.username ?? "");
   const [bio, setBio] = useState(user.bio ?? "");
@@ -97,6 +99,13 @@ export function ProfileEditForm({ user, onSuccess, onCancel }: Props) {
       setSaving(false);
 
       if (result.ok) {
+        // Update AuthContext so sidebar + profile header reflect changes immediately
+        setUser({
+          ...user,
+          username: username || user.username,
+          bio: bio || user.bio,
+          ...(avatarUrl ? { avatar_url: avatarUrl } : {}),
+        });
         onSuccess();
       } else {
         setError(result.error);
