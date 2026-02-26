@@ -5,7 +5,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import { rooms } from "./room";
-import Road from "./road"
+import Road from "./Road"
 import RoomNode from "./RoomNode";
 
 gsap.registerPlugin(ScrollTrigger);

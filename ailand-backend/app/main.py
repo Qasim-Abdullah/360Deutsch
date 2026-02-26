@@ -4,6 +4,7 @@ from fastapi.staticfiles import StaticFiles
 import os
 from app.routes import users, auth, kg, learning, progress, userinfo
 from app.core.database import engine, Base
+from app.core.config import settings
 from app.models import Model, RoomProgress, WordProgress, UserProgress, PointsHistory  # Import all models
 
 
@@ -20,6 +21,7 @@ origins = [
     "http://localhost:3001",           
     "http://127.0.0.1:3000",
     "http://127.0.0.1:3001",
+    settings.FRONTEND_URL,
 ]
 
 app.add_middleware(
@@ -41,3 +43,8 @@ app.include_router(userinfo.router, prefix="/userinfo", tags=["User Info"])
 app.include_router(kg.router, prefix="/kg", tags=["Knowledge Graph"])
 app.include_router(learning.router, prefix="/learning", tags=["Learning Words"])
 app.include_router(progress.router, prefix="/progress", tags=["Progress & Points"])
+
+
+@app.get("/health")
+def health_check():
+    return {"status": "ok"}
