@@ -34,6 +34,7 @@ export default function RoomViewEmbedded({
   const onDropWordRef = useRef(onDropWord);
   const onRoomObjectClickRef = useRef(onRoomObjectClick);
   const [roomReady, setRoomReady] = useState(false);
+  const [loadProgress, setLoadProgress] = useState({ loaded: 0, total: 1 });
   onDropWordRef.current = onDropWord;
   onRoomObjectClickRef.current = onRoomObjectClick;
 
@@ -81,6 +82,13 @@ export default function RoomViewEmbedded({
   useEffect(() => {
     const onIntroStart = () => setRoomReady(true);
     document.addEventListener("intro:start", onIntroStart);
+
+    const onProgress = (e: Event) => {
+      const { loaded, total } = (e as CustomEvent<{ loaded: number; total: number }>).detail;
+      setLoadProgress({ loaded, total });
+    };
+    document.addEventListener("room:loadProgress", onProgress);
+
     const useFallback =
       typeof window !== "undefined" &&
       (window as unknown as { __ROOM_LEVEL2?: boolean }).__ROOM_LEVEL2;
@@ -89,6 +97,7 @@ export default function RoomViewEmbedded({
       : null;
     return () => {
       document.removeEventListener("intro:start", onIntroStart);
+      document.removeEventListener("room:loadProgress", onProgress);
       if (fallbackId != null) clearTimeout(fallbackId);
     };
   }, []);
@@ -240,8 +249,19 @@ export default function RoomViewEmbedded({
     <div
       ref={containerRef}
       className="room-embedded"
-      style={{ height }}
+      style={{ height, position: "relative" }}
     >
+      {/* Loading overlay */}
+      {!roomReady && (
+        <div className="absolute inset-0 z-50 flex flex-col items-center justify-center bg-white/60 dark:bg-slate-950/60 backdrop-blur-sm rounded-xl transition-opacity duration-300">
+          <div className="w-10 h-10 border-4 border-purple-500 border-t-transparent rounded-full animate-spin mb-3" />
+          <p className="text-sm font-medium text-gray-600 dark:text-slate-300">
+            Loading room...
+            {loadProgress.total > 1 &&
+              ` (${Math.round((loadProgress.loaded / loadProgress.total) * 100)}%)`}
+          </p>
+        </div>
+      )}
       <div id="experience">
         <canvas id="experience-canvas" ref={canvasRef} />
       </div>

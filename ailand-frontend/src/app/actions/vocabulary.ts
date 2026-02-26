@@ -219,17 +219,25 @@ export type WordDetails = {
 
 export async function getWordDetailsAction(wordId: string): Promise<WordDetails | null> {
   try {
+    // Decode URI component in case the wordId is still URL-encoded
+    let decodedId = wordId;
+    try {
+      decodedId = decodeURIComponent(wordId);
+    } catch {
+      // Already decoded or invalid encoding
+    }
+
     // Get word details from local JSON
-    const data = getLocalWordDetails(wordId);
+    const data = getLocalWordDetails(decodedId);
     
     if (!data) {
       // Try with capitalized first letter (legacy support)
-      const capitalizedId = wordId.charAt(0).toUpperCase() + wordId.slice(1);
+      const capitalizedId = decodedId.charAt(0).toUpperCase() + decodedId.slice(1);
       const capitalizedData = getLocalWordDetails(capitalizedId);
       if (capitalizedData) {
         return capitalizedData as WordDetails;
       }
-      console.error("[WordDetails] Word not found:", wordId);
+      console.error("[WordDetails] Word not found:", decodedId, "(original:", wordId, ")");
       return null;
     }
     

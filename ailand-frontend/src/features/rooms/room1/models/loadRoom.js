@@ -6,6 +6,16 @@ import { textureMap } from "../materials/textures.js";
 
 export const manager = new THREE.LoadingManager();
 
+manager.onProgress = (_url, itemsLoaded, itemsTotal) => {
+  if (typeof document !== "undefined") {
+    document.dispatchEvent(
+      new CustomEvent("room:loadProgress", {
+        detail: { loaded: itemsLoaded, total: itemsTotal },
+      })
+    );
+  }
+};
+
 export const dracoLoader = new DRACOLoader();
 dracoLoader.setDecoderPath("/draco/");
 
