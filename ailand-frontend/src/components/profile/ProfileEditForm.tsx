@@ -70,36 +70,40 @@ export function ProfileEditForm({ user, onSuccess, onCancel }: Props) {
     setError(null);
     setSaving(true);
 
-    let avatarUrl: string | undefined;
+    try {
+      let avatarUrl: string | undefined;
 
-    if (avatarFile) {
-      const formData = new FormData();
-      formData.append("avatar", avatarFile);
+      if (avatarFile) {
+        const formData = new FormData();
+        formData.append("avatar", avatarFile);
 
-      const upload = await uploadAvatarAction(formData);
+        const upload = await uploadAvatarAction(formData);
 
-      if (!upload.ok) {
-        setError(upload.error);
-        setSaving(false);
-        return;
+        if (!upload.ok) {
+          setError(upload.error);
+          setSaving(false);
+          return;
+        }
+
+        avatarUrl = upload.avatar_url;
       }
 
-      avatarUrl = upload.avatar_url;
-    }
+      const result = await updateProfileAction({
+        username: username || undefined,
+        bio: bio || undefined,
+        avatar_url: avatarUrl,
+      });
 
-    const result = await updateProfileAction({
-      display_name: displayName || undefined,
-      username: username || undefined,
-      bio: bio || undefined,
-      avatar_url: avatarUrl,
-    });
+      setSaving(false);
 
-    setSaving(false);
-
-    if (result.ok) {
-      onSuccess();
-    } else {
-      setError(result.error);
+      if (result.ok) {
+        onSuccess();
+      } else {
+        setError(result.error);
+      }
+    } catch (err) {
+      setSaving(false);
+      setError(err instanceof Error ? err.message : "An unexpected error occurred");
     }
   }
 

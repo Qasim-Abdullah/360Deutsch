@@ -144,7 +144,7 @@ export async function uploadAvatarAction(
     }
 
     const body = new FormData();
-    body.append("avatar", file);
+    body.append("file", file);
 
     const res = await fetch(`${BASE_URL}/userinfo/avatar`, {
       method: "POST",
