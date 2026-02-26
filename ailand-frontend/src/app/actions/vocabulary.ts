@@ -2,9 +2,13 @@
 
 import { serverApiRequest } from "@/app/server/apiRequest";
 import { vocabularyMock } from "@/lib/vocabularyMoc";
+import {
+  getRooms,
+  getSubjectsByLevel,
+  getWordDetails as getLocalWordDetails,
+  getLevelWordCount,
+} from "@/lib/vocabularyData";
 import type {
-  RoomsListResponseBE,
-  RoomSubjectsResponseBE,
   LearnedWordsResponseBE,
   InProgressWordsResponseBE,
   VocabularyUI,
@@ -24,19 +28,14 @@ export type OverallProgress = {
 
 export async function getOverallProgressAction(): Promise<OverallProgress> {
   try {
-    const roomsRes = await serverApiRequest("/kg/rooms");
-    
-    if (!roomsRes.ok) {
-      return { totalWordsAllLevels: 0, totalLearnedAllLevels: 0, totalInProgressAllLevels: 0, overallPercent: 0 };
-    }
-    
-    const roomsData = (await roomsRes.json()) as RoomsListResponseBE;
-    const totalWordsAllLevels = roomsData.rooms.reduce((sum, r) => sum + r.word_count, 0);
+    // Get room data from local JSON
+    const rooms = getRooms();
+    const totalWordsAllLevels = rooms.reduce((sum, r) => sum + r.word_count, 0);
     
     let totalLearnedAllLevels = 0;
     let totalInProgressAllLevels = 0;
     
-    // Fetch learned/in-progress counts for all levels
+    // Fetch learned/in-progress counts for all levels from backend
     try {
       for (const level of ["A1", "A2", "B1"]) {
         const [learnedRes, inProgRes] = await Promise.all([
@@ -79,29 +78,14 @@ export async function getVocabularyAction(
   if (USE_MOCK) return { ...vocabularyMock, totalWordsInLevel: 104 };
 
   try {
-    const roomsRes = await serverApiRequest("/kg/rooms");
-    const subjectsRes = await serverApiRequest(`/kg/rooms/${level}/subjects?limit=${PAGE_SIZE}&offset=0`);
-
-    if (!roomsRes.ok) {
-      const text = await roomsRes.text().catch(() => "");
-      console.error("[Vocabulary] Failed to load rooms:", roomsRes.status, text);
-      throw new Error(`HTTP ${roomsRes.status}: ${text || "Failed to load rooms"}`);
-    }
-    if (!subjectsRes.ok) {
-      const text = await subjectsRes.text().catch(() => "");
-      console.error("[Vocabulary] Failed to load subjects:", subjectsRes.status, text);
-      throw new Error(`HTTP ${subjectsRes.status}: ${text || "Failed to load subjects"}`);
-    }
-
-    const roomsData = (await roomsRes.json()) as RoomsListResponseBE;
-    const subjectsData = (await subjectsRes.json()) as RoomSubjectsResponseBE;
-    const rooms = roomsData.rooms;
+    // Get room and subject data from local JSON
+    const rooms = getRooms();
+    const subjectsData = getSubjectsByLevel(level, PAGE_SIZE, 0);
     const subjects = subjectsData.subjects;
     const roomId = selectedRoomId ?? (rooms[0]?.room_id ?? null);
     
-    // Get total word count for this level from rooms data
-    const currentRoom = rooms.find(r => r.room_id === level);
-    const totalWordsInLevel = currentRoom?.word_count ?? subjects.length;
+    // Get total word count for this level from local data
+    const totalWordsInLevel = getLevelWordCount(level);
 
     console.log(`[Vocabulary] Loaded ${subjects.length} of ${totalWordsInLevel} subjects for level ${level}`);
 
@@ -169,20 +153,11 @@ export async function loadMoreWordsAction(
   offset: number
 ): Promise<{ words: WordUI[]; hasMore: boolean }> {
   try {
-    const subjectsRes = await serverApiRequest(
-      `/kg/rooms/${level}/subjects?limit=${PAGE_SIZE}&offset=${offset}`
-    );
-
-    if (!subjectsRes.ok) {
-      const text = await subjectsRes.text().catch(() => "");
-      console.error("[LoadMore] Failed to load subjects:", subjectsRes.status, text);
-      throw new Error(`HTTP ${subjectsRes.status}: ${text || "Failed to load more words"}`);
-    }
-
-    const subjectsData = (await subjectsRes.json()) as RoomSubjectsResponseBE;
+    // Get subjects from local JSON
+    const subjectsData = getSubjectsByLevel(level, PAGE_SIZE, offset);
     const subjects = subjectsData.subjects;
 
-    // Try to get word progress status
+    // Try to get word progress status from backend
     let learnedSet = new Set<string>();
     let inProgSet = new Set<string>();
 
@@ -244,14 +219,20 @@ export type WordDetails = {
 
 export async function getWordDetailsAction(wordId: string): Promise<WordDetails | null> {
   try {
-    const res = await serverApiRequest(`/kg/word/${encodeURIComponent(wordId)}`);
+    // Get word details from local JSON
+    const data = getLocalWordDetails(wordId);
     
-    if (!res.ok) {
-      console.error("[WordDetails] Failed to fetch:", res.status);
+    if (!data) {
+      // Try with capitalized first letter (legacy support)
+      const capitalizedId = wordId.charAt(0).toUpperCase() + wordId.slice(1);
+      const capitalizedData = getLocalWordDetails(capitalizedId);
+      if (capitalizedData) {
+        return capitalizedData as WordDetails;
+      }
+      console.error("[WordDetails] Word not found:", wordId);
       return null;
     }
     
-    const data = await res.json();
     return data as WordDetails;
   } catch (error) {
     console.error("[WordDetails] Error:", error);
