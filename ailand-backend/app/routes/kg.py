@@ -3,7 +3,7 @@ from typing import Optional
 from sqlalchemy.orm import Session
 from datetime import datetime
 
-from app.services.kg_service import kg_service
+from app.services.kg_service import kg_service, get_cache_stats, clear_all_caches
 from app.services.progress_service import record_activity
 from app.schemas.kg import (
     LevelsResponse, LevelInfo,
@@ -328,3 +328,16 @@ async def search_words(
         "results": [],
         "message": "Search functionality coming soon"
     }
+
+
+@router.get("/cache-stats")
+async def get_kg_cache_stats():
+    """Get cache statistics for KG service."""
+    return get_cache_stats()
+
+
+@router.post("/cache-clear")
+async def clear_kg_cache():
+    """Clear all KG caches."""
+    clear_all_caches()
+    return {"message": "All KG caches cleared"}

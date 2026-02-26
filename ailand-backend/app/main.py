@@ -1,19 +1,34 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+from contextlib import asynccontextmanager
 import os
 from app.routes import users, auth, kg, learning, progress, userinfo
 from app.core.database import engine, Base
 from app.core.config import settings
 from app.models import Model, RoomProgress, WordProgress, UserProgress, PointsHistory  # Import all models
+from app.services.kg_service import warm_cache
 
 
 Base.metadata.create_all(bind=engine)
 
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup: warm the KG cache
+    try:
+        warm_cache()
+    except Exception as e:
+        print(f"Warning: Failed to warm KG cache: {e}")
+    yield
+    # Shutdown: nothing to clean up
+
+
 app = FastAPI(
     title="AILand API",
     description="German Language Learning System with Knowledge Graph",
-    version="1.0.0"
+    version="1.0.0",
+    lifespan=lifespan
 )
 
 origins = [
