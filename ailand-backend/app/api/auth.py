@@ -1,6 +1,7 @@
 from fastapi import HTTPException, status
 from sqlalchemy.orm import Session
 from datetime import timedelta
+from starlette.background import BackgroundTasks
 
 from app.schemas.user import (
     UserCreate, TokenResponse, UserInToken,
@@ -94,7 +95,7 @@ def login_user(username_or_email: str, password: str, db: Session) -> TokenRespo
     )
 
 
-def request_password_reset(request: ForgotPasswordRequest, db: Session) -> MessageResponse:
+def request_password_reset(request: ForgotPasswordRequest, db: Session, background_tasks: BackgroundTasks) -> MessageResponse:
     
     user = get_user_by_email(db, email=request.email)
     
@@ -103,13 +104,8 @@ def request_password_reset(request: ForgotPasswordRequest, db: Session) -> Messa
     
     reset_token = create_password_reset_token(request.email)
     
-    email_sent = send_password_reset_email(request.email, reset_token)
-    
-    if not email_sent:
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail="Failed to send password reset email"
-        )
+    # Send email in background so the response returns immediately
+    background_tasks.add_task(send_password_reset_email, request.email, reset_token)
     
     return MessageResponse(message="If the email exists, a password reset link has been sent")
 

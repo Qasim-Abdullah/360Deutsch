@@ -10,6 +10,7 @@ from app.models.model import Model
 from app.utils.dependencies import get_current_user
 from app.core.database import get_db
 from app.api import auth as auth_api
+from starlette.background import BackgroundTasks
 
 router = APIRouter()
 
@@ -27,9 +28,12 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = 
 
 
 @router.post("/forgot-password", response_model=MessageResponse)
-async def forgot_password(request: ForgotPasswordRequest, db: Session = Depends(get_db)):
-    
-    return auth_api.request_password_reset(request, db)
+async def forgot_password(
+    request: ForgotPasswordRequest,
+    background_tasks: BackgroundTasks,
+    db: Session = Depends(get_db),
+):
+    return auth_api.request_password_reset(request, db, background_tasks)
 
 
 @router.post("/reset-password", response_model=MessageResponse)

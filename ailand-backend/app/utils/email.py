@@ -21,24 +21,34 @@ def send_password_reset_email(email_to: str, token: str) -> bool:
     </html>
     """
     
-    try:
-        message = MIMEMultipart("alternative")
-        message["Subject"] = subject
-        message["From"] = f"{settings.EMAILS_FROM_NAME} <{settings.EMAILS_FROM_EMAIL}>"
-        message["To"] = email_to
-        
-        html_part = MIMEText(html_content, "html")
-        message.attach(html_part)
-        
-        with smtplib.SMTP(settings.SMTP_HOST, settings.SMTP_PORT, timeout=15) as server:
-            server.starttls()
-            server.login(settings.SMTP_USER, settings.SMTP_PASSWORD)
-            server.sendmail(settings.EMAILS_FROM_EMAIL, email_to, message.as_string())
-        
-        return True
-    except Exception as e:
-        print(f"Failed to send email: {e}")
-        return False
+    message = MIMEMultipart("alternative")
+    message["Subject"] = subject
+    message["From"] = f"{settings.EMAILS_FROM_NAME} <{settings.EMAILS_FROM_EMAIL}>"
+    message["To"] = email_to
+    
+    html_part = MIMEText(html_content, "html")
+    message.attach(html_part)
+
+    # Try port 465 (SSL) first, then fall back to port 587 (STARTTLS)
+    for attempt in ("ssl", "starttls"):
+        try:
+            if attempt == "ssl":
+                with smtplib.SMTP_SSL(settings.SMTP_HOST, 465, timeout=15) as server:
+                    server.login(settings.SMTP_USER, settings.SMTP_PASSWORD)
+                    server.sendmail(settings.EMAILS_FROM_EMAIL, email_to, message.as_string())
+            else:
+                with smtplib.SMTP(settings.SMTP_HOST, settings.SMTP_PORT, timeout=15) as server:
+                    server.starttls()
+                    server.login(settings.SMTP_USER, settings.SMTP_PASSWORD)
+                    server.sendmail(settings.EMAILS_FROM_EMAIL, email_to, message.as_string())
+            print(f"Email sent successfully via {attempt} to {email_to}")
+            return True
+        except Exception as e:
+            print(f"Failed to send email via {attempt}: {e}")
+            continue
+    
+    print(f"All email delivery attempts failed for {email_to}")
+    return False
 
 
 
